@@ -1,0 +1,553 @@
+/**
+ * 统一主题系统 - 参考 Open Template Hub 风格
+ * 支持多种颜色主题和深浅色模式
+ */
+
+:root {
+  /* ========================================
+   * 基础色阶定义 (Light Mode)
+   * ======================================== */
+  
+  /* 文字颜色 */
+  --color-lighter: #757575;
+  --color-base: #545454;
+  --color-darker: #2b2b2b;
+  
+  /* 对比色/背景色 */
+  --contrast-darker: #efefef;
+  --contrast-base: #e0e0e0;
+  --contrast-lighter: #b4b4b4;
+  
+  /* 背景 */
+  --bg-primary: #fefefe;
+  --bg-primary-alpha: rgba(255, 255, 255, 0.93);
+  --bg-card: #ffffff;
+  
+  /* 阴影 */
+  --shadow-base: rgba(155, 155, 155, 0.5);
+  --shadow-lighter: rgba(235, 235, 235, 0.55);
+  --shadow-darker: rgba(100, 100, 100, 0.5);
+
+  /* ========================================
+   * 主题色系 - 科技深蓝 (默认)
+   * 汽车电子行业：专业、科技、可信赖
+   * 基于 UI/UX Pro Max Automotive + B2B Service 配色
+   * ======================================== */
+  --theme-color: #1E293B;          /* 主色：Slate 900 - 高级深灰蓝 */
+  --theme-color-secondary: #3B82F6; /* 辅色：Blue 500 - 科技蓝 */
+  --theme-color-tertiary: #F59E0B;  /* 点缀色：Amber 500 - 温暖专业 */
+  --theme-color-cta: #0EA5E9;       /* CTA色：Sky 500 - 清爽行动蓝 */
+  
+  /* 语义色系 - 基于UI/UX Pro Max最佳实践 */
+  --color-success: #10b981;        /* 成功：绿色 */
+  --color-warning: #f59e0b;        /* 警告：黄色 */
+  --color-error: #ef4444;          /* 错误：红色 */
+  --color-info: #3b82f6;           /* 信息：蓝色 */
+  
+  /* 现代渐变色组合 - 基于新配色 */
+  --gradient-primary: linear-gradient(135deg, #3B82F6 0%, #1E293B 100%);
+  --gradient-secondary: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+  --gradient-accent: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  --gradient-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+  
+  /* 玻璃态效果变量 */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  --glass-backdrop: blur(16px) saturate(180%);
+  
+  /* 新拟态效果变量 */
+  --neomorphism-light: #ffffff;
+  --neomorphism-dark: #d1d5db;
+  --neomorphism-shadow-light: rgba(255, 255, 255, 0.7);
+  --neomorphism-shadow-dark: rgba(0, 0, 0, 0.15);
+  
+  /* 主题色阶 - 变亮 (基于 #1E293B Slate) */
+  --theme-color-lighter-1: #334155;
+  --theme-color-lighter-2: #475569;
+  --theme-color-lighter-3: #64748B;
+  --theme-color-lighter-4: #94A3B8;
+  --theme-color-lighter-5: #CBD5E1;
+  --theme-color-lighter-6: #E2E8F0;
+  --theme-color-lighter-7: #F1F5F9;
+  --theme-color-lighter-8: #F8FAFC;
+  --theme-color-lighter-9: #FFFFFF;
+  
+  /* 主题色阶 - 变暗 */
+  --theme-color-darker-1: #1E293B;
+  --theme-color-darker-2: #0F172A;
+  --theme-color-darker-3: #0C1322;
+  --theme-color-darker-4: #080E1A;
+  --theme-color-darker-5: #050912;
+  --theme-color-darker-6: #03050A;
+  --theme-color-darker-7: #020305;
+  --theme-color-darker-8: #010102;
+  --theme-color-darker-9: #000000;
+  
+  /* 辅色色阶 - Blue 500 (#3B82F6) */
+  --theme-secondary-lighter-1: #60A5FA;
+  --theme-secondary-lighter-2: #93C5FD;
+  --theme-secondary-lighter-3: #BFDBFE;
+  --theme-secondary-lighter-4: #DBEAFE;
+  --theme-secondary-lighter-5: #EFF6FF;
+  --theme-secondary-lighter-6: #F8FAFC;
+  --theme-secondary-lighter-7: #FFFFFF;
+  --theme-secondary-lighter-8: #FFFFFF;
+  --theme-secondary-lighter-9: #FFFFFF;
+  
+  /* 点缀色色阶 - Amber 500 (#F59E0B) */
+  --theme-accent-lighter-1: #FBBF24;
+  --theme-accent-lighter-2: #FCD34D;
+  --theme-accent-lighter-3: #FDE68A;
+  --theme-accent-lighter-4: #FEF3C7;
+  --theme-accent-lighter-5: #FFFBEB;
+  --theme-accent-lighter-6: #FFFFFF;
+  --theme-accent-lighter-7: #FFFFFF;
+  --theme-accent-lighter-8: #FFFFFF;
+  --theme-accent-lighter-9: #FFFFFF;
+  
+  /* 悬浮效果 - 基于新配色 */
+  --hover-light: rgba(59, 130, 246, 0.1);
+  --hover-dark: rgba(59, 130, 246, 0.25);
+  --hover-accent: rgba(245, 158, 11, 0.15);
+
+  /* ========================================
+   * 设计变量 - 现代商务风格
+   * ======================================== */
+  --border-radius: 10px;
+  --border-radius-lg: 14px;
+  --border-radius-xl: 18px;
+  --border-radius-2xl: 24px;
+  --border-radius-full: 9999px;
+  
+  --padding-base: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xl: 2rem;
+  --padding-2xl: 3rem;
+  
+  --transition-fast: 200ms;
+  --transition-base: 350ms;
+  --transition-slow: 600ms;
+  
+  /* 现代阴影系统 */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* 底部导航高度 */
+  --bottom-nav-height: 55px;
+}
+
+/* ========================================
+ * 深色模式
+ * ======================================== */
+.dark, [data-theme="dark"] {
+  /* 文字颜色 */
+  --color-lighter: #cfcfcf;
+  --color-base: #e0e0e0;
+  --color-darker: #f0f0f0;
+  
+  /* 对比色/背景色 - 电商深色系 */
+  --contrast-darker: #1A1A1A;
+  --contrast-base: #2A2A2A;
+  --contrast-lighter: #4A4A4A;
+  
+  /* 背景 - 电商深色系 */
+  --bg-primary: #0F1113;
+  --bg-primary-alpha: rgba(15, 17, 19, 0.95);
+  --bg-card: #1A1A1A;
+  --bg-card-hover: #212121;
+  
+  /* 阴影 */
+  --shadow-base: rgba(0, 0, 0, 0.5);
+  --shadow-lighter: rgba(0, 0, 0, 0.3);
+  --shadow-darker: rgba(0, 0, 0, 0.7);
+  
+  /* 深色模式下的主题色阶调换 */
+  --theme-color-lighter-1: var(--theme-color-darker-1);
+  --theme-color-lighter-2: var(--theme-color-darker-2);
+  --theme-color-lighter-3: var(--theme-color-darker-3);
+  --hover-light: var(--hover-dark);
+}
+
+/* ========================================
+ * 蓝色主题
+ * ======================================== */
+.theme-blue {
+  --theme-color: #009ACD;
+  --theme-color-secondary: #005470;
+  --theme-color-tertiary: #46caf5;
+  
+  --theme-color-lighter-1: #12a1d0;
+  --theme-color-lighter-2: #24a8d4;
+  --theme-color-lighter-3: #36afd7;
+  --theme-color-lighter-4: #48b6db;
+  --theme-color-lighter-5: #5abdde;
+  --theme-color-lighter-6: #6cc4e2;
+  --theme-color-lighter-7: #a3daec;
+  --theme-color-lighter-8: #c7e8f3;
+  --theme-color-lighter-9: #ebf6fa;
+  
+  --theme-color-darker-1: #0392c2;
+  --theme-color-darker-2: #078bb7;
+  --theme-color-darker-3: #0b7fa5;
+  --theme-color-darker-4: #0f7da1;
+  --theme-color-darker-5: #127596;
+  --theme-color-darker-6: #166e8b;
+  --theme-color-darker-7: #22596b;
+  --theme-color-darker-8: #294a55;
+  --theme-color-darker-9: #313c3f;
+  
+  --hover-light: rgba(64, 152, 214, 0.3);
+  --hover-dark: rgba(64, 152, 214, 0.6);
+}
+
+/* ========================================
+ * 绿色主题
+ * ======================================== */
+.theme-green {
+  --theme-color: #10b981;
+  --theme-color-secondary: #047857;
+  --theme-color-tertiary: #34d399;
+  
+  --theme-color-lighter-1: #1fbd89;
+  --theme-color-lighter-2: #2ec191;
+  --theme-color-lighter-3: #3dc599;
+  --theme-color-lighter-4: #4cc9a1;
+  --theme-color-lighter-5: #5bcda9;
+  --theme-color-lighter-6: #6ad1b1;
+  --theme-color-lighter-7: #98e0c9;
+  --theme-color-lighter-8: #c1ede0;
+  --theme-color-lighter-9: #eafaf5;
+  
+  --theme-color-darker-1: #0ea976;
+  --theme-color-darker-2: #0c9b6b;
+  --theme-color-darker-3: #0a8d60;
+  --theme-color-darker-4: #087f55;
+  --theme-color-darker-5: #06714a;
+  --theme-color-darker-6: #04633f;
+  --theme-color-darker-7: #025534;
+  --theme-color-darker-8: #004729;
+  --theme-color-darker-9: #00391e;
+  
+  --hover-light: rgba(16, 185, 129, 0.3);
+  --hover-dark: rgba(16, 185, 129, 0.6);
+}
+
+/* ========================================
+ * 青色主题 (替代紫色，符合设计规范)
+ * ======================================== */
+.theme-cyan {
+  --theme-color: #06b6d4;
+  --theme-color-secondary: #0891b2;
+  --theme-color-tertiary: #22d3ee;
+  
+  --theme-color-lighter-1: #14b8d6;
+  --theme-color-lighter-2: #22bad8;
+  --theme-color-lighter-3: #30bcda;
+  --theme-color-lighter-4: #3ebedc;
+  --theme-color-lighter-5: #4cc0de;
+  --theme-color-lighter-6: #5ac2e0;
+  --theme-color-lighter-7: #8ed4ea;
+  --theme-color-lighter-8: #c2e6f4;
+  --theme-color-lighter-9: #ecfeff;
+  
+  --theme-color-darker-1: #05a3bf;
+  --theme-color-darker-2: #0490aa;
+  --theme-color-darker-3: #037d95;
+  --theme-color-darker-4: #026a80;
+  --theme-color-darker-5: #01576b;
+  --theme-color-darker-6: #004456;
+  --theme-color-darker-7: #003141;
+  --theme-color-darker-8: #001e2c;
+  --theme-color-darker-9: #000b17;
+  
+  --hover-light: rgba(6, 182, 212, 0.3);
+  --hover-dark: rgba(6, 182, 212, 0.6);
+}
+
+/* ========================================
+ * 橙色主题
+ * ======================================== */
+.theme-orange {
+  --theme-color: #f97316;
+  --theme-color-secondary: #c2410c;
+  --theme-color-tertiary: #fb923c;
+  
+  --theme-color-lighter-1: #fa7d28;
+  --theme-color-lighter-2: #fa873a;
+  --theme-color-lighter-3: #fb914c;
+  --theme-color-lighter-4: #fb9b5e;
+  --theme-color-lighter-5: #fca570;
+  --theme-color-lighter-6: #fcaf82;
+  --theme-color-lighter-7: #fdc8a8;
+  --theme-color-lighter-8: #fee1ce;
+  --theme-color-lighter-9: #fff7ed;
+  
+  --theme-color-darker-1: #e06814;
+  --theme-color-darker-2: #c75d12;
+  --theme-color-darker-3: #ae5210;
+  --theme-color-darker-4: #95470e;
+  --theme-color-darker-5: #7c3c0c;
+  --theme-color-darker-6: #63310a;
+  --theme-color-darker-7: #4a2608;
+  --theme-color-darker-8: #311b06;
+  --theme-color-darker-9: #181004;
+  
+  --hover-light: rgba(249, 115, 22, 0.3);
+  --hover-dark: rgba(249, 115, 22, 0.6);
+}
+
+/* ========================================
+ * UI/UX Pro Max 现代效果增强
+ * ======================================== */
+
+/* 玻璃态效果类 */
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+.dark .glass-effect {
+  --glass-bg: rgba(30, 41, 59, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* 新拟态效果类 */
+.neomorphism {
+  background: var(--neomorphism-light);
+  box-shadow: 
+    8px 8px 16px var(--neomorphism-shadow-dark),
+    -8px -8px 16px var(--neomorphism-shadow-light);
+}
+
+.neomorphism:hover {
+  box-shadow: 
+    12px 12px 24px var(--neomorphism-shadow-dark),
+    -12px -12px 24px var(--neomorphism-shadow-light);
+}
+
+.dark .neomorphism {
+  background: var(--neomorphism-dark);
+  --neomorphism-shadow-light: rgba(55, 65, 81, 0.7);
+  --neomorphism-shadow-dark: rgba(0, 0, 0, 0.5);
+}
+
+/* 渐变文字效果 */
+.text-gradient-primary {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.text-gradient-secondary {
+  background: var(--gradient-secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* 现代发光效果 */
+.glow-primary {
+  box-shadow: 0 0 20px rgba(41, 121, 255, 0.3);
+  animation: pulse-glow-primary 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-glow-primary {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(41, 121, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(41, 121, 255, 0.5);
+  }
+}
+
+.glow-secondary {
+  box-shadow: 0 0 20px rgba(255, 122, 0, 0.3);
+  animation: pulse-glow-secondary 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-glow-secondary {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 122, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 122, 0, 0.5);
+  }
+}
+
+/* 现代卡片阴影系统 */
+.card-shadow-sm {
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-shadow-sm:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.card-shadow-md {
+  box-shadow: var(--shadow-md);
+  transition: box-shadow var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-shadow-md:hover {
+  box-shadow: var(--shadow-xl);
+}
+
+.card-shadow-lg {
+  box-shadow: var(--shadow-lg);
+  transition: box-shadow var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-shadow-lg:hover {
+  box-shadow: var(--shadow-2xl);
+}
+
+/* 现代边框效果 */
+.border-gradient-primary {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+              var(--gradient-primary) border-box;
+}
+
+.border-gradient-secondary {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+              var(--gradient-secondary) border-box;
+}
+
+/* 现代按钮效果 */
+.btn-modern {
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left var(--transition-slow) ease;
+}
+
+.btn-modern:hover::before {
+  left: 100%;
+}
+
+/* 现代输入框效果 */
+.input-modern {
+  position: relative;
+  transition: all var(--transition-base) ease;
+}
+
+.input-modern:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(41, 121, 255, 0.15);
+}
+
+/* 现代加载动画 */
+.loading-modern {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading-modern::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: loading-shimmer 1.5s infinite;
+}
+
+@keyframes loading-shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* 现代悬浮效果 */
+.hover-lift {
+  transition: transform var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+.hover-scale {
+  transition: transform var(--transition-base) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* 现代渐变背景 */
+.bg-gradient-modern {
+  background: linear-gradient(135deg, 
+    var(--theme-color-lighter-9) 0%, 
+    var(--theme-color-lighter-8) 25%, 
+    var(--theme-color-lighter-7) 50%, 
+    var(--theme-color-lighter-6) 75%, 
+    var(--theme-color-lighter-5) 100%);
+}
+
+.dark .bg-gradient-modern {
+  background: linear-gradient(135deg, 
+    var(--theme-color-darker-5) 0%, 
+    var(--theme-color-darker-4) 25%, 
+    var(--theme-color-darker-3) 50%, 
+    var(--theme-color-darker-2) 75%, 
+    var(--theme-color-darker-1) 100%);
+}
+
+/* ========================================
+ * View Transition — 主题切换过渡动画
+ * 参考: https://theme-toggle.rdsx.dev/
+ * 使用模糊圆形扩散效果，从屏幕中心展开
+ * ======================================== */
+
+::view-transition-group(root) {
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+::view-transition-new(root) {
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><defs><filter id="blur"><feGaussianBlur stdDeviation="2"/></filter></defs><circle cx="20" cy="20" r="18" fill="white" filter="url(%23blur)"/></svg>') center / 0 no-repeat;
+  animation: theme-scale 1s;
+  animation-fill-mode: both;
+}
+
+::view-transition-old(root),
+.dark::view-transition-old(root) {
+  animation: none;
+  animation-fill-mode: both;
+  z-index: -1;
+}
+
+.dark::view-transition-new(root) {
+  animation: theme-scale 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes theme-scale {
+  to {
+    mask-size: 200vmax;
+  }
+}

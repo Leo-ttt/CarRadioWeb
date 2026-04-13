@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hero-bg",
+    "name": "Hero Background",
+    "url": "/images/hero.png",
+    "alt": "汽车中控台背景图",
+    "type": "hero",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "installation-scene",
+    "name": "Installation Scene",
+    "url": "/images/install.png",
+    "alt": "汽车中控台安装场景图片",
+    "type": "installation",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,395 @@
+/* ============================================
+   公告详情卡片三种风格：玻璃拟态 / 古风卷轴 / 火漆封信
+   ============================================ */
+
+.notice-card {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.notice-card-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.notice-card-body-text {
+  font-size: 14.5px;
+  line-height: 1.85;
+}
+
+/* ---------- 玻璃拟态 (Glass) ---------- */
+.notice-card--glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark .notice-card--glass {
+  background: rgba(30, 30, 40, 0.6);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.notice-card__glow,
+.notice-card__glow-2 {
+  position: absolute;
+  pointer-events: none;
+}
+
+.notice-card__glow {
+  top: -40px;
+  right: -40px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(99, 179, 237, 0.2) 0%, transparent 70%);
+}
+
+.notice-card__glow-2 {
+  bottom: -30px;
+  left: -30px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(183, 148, 244, 0.15) 0%, transparent 70%);
+}
+
+.notice-card__top-section {
+  padding: 24px 32px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.notice-card__notice-icon {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, rgba(99, 179, 237, 0.25), rgba(183, 148, 244, 0.25));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.notice-card__top-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.notice-card__badge {
+  margin-left: auto;
+  background: rgba(99, 179, 237, 0.15);
+  color: rgba(99, 179, 237, 0.9);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(99, 179, 237, 0.2);
+}
+
+.notice-card__inner {
+  padding: 24px 32px 32px;
+}
+
+.notice-card--glass .notice-card-body-text {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.notice-card__footer-bar {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.notice-card__action-btn {
+  color: rgba(99, 179, 237, 0.9);
+  border: 1px solid rgba(99, 179, 237, 0.2);
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 12px;
+  background: transparent;
+}
+
+.notice-card__action-btn:hover {
+  background: rgba(99, 179, 237, 0.1);
+}
+
+/* ---------- 古风卷轴 (Scroll) ---------- */
+.notice-card--scroll {
+  padding: 0;
+}
+
+.notice-card__rod {
+  height: 22px;
+  background: linear-gradient(
+    180deg,
+    #a08060 0%,
+    #c4a67a 15%,
+    #dbc09a 30%,
+    #c4a67a 50%,
+    #a08060 70%,
+    #8a6a48 85%,
+    #a08060 100%
+  );
+  border-radius: 11px;
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 3;
+}
+
+.dark .notice-card__rod {
+  filter: brightness(0.85);
+}
+
+.notice-card__rod--top::before,
+.notice-card__rod--top::after,
+.notice-card__rod--bottom::before,
+.notice-card__rod--bottom::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle at 45% 40%, #c4a67a, #8a6a48);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.notice-card__rod--top::before,
+.notice-card__rod--bottom::before {
+  left: -6px;
+}
+
+.notice-card__rod--top::after,
+.notice-card__rod--bottom::after {
+  right: -6px;
+}
+
+.notice-card__scroll-body {
+  background: linear-gradient(
+    90deg,
+    #e8dcc8 0%,
+    #f5efe3 4%,
+    #faf6ee 12%,
+    #fdfbf5 50%,
+    #faf6ee 88%,
+    #f5efe3 96%,
+    #e8dcc8 100%
+  );
+  padding: 36px 48px;
+  box-shadow:
+    inset 4px 0 8px rgba(0, 0, 0, 0.04),
+    inset -4px 0 8px rgba(0, 0, 0, 0.04),
+    0 8px 30px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.dark .notice-card__scroll-body {
+  background: linear-gradient(
+    90deg,
+    #2a2520 0%,
+    #352e28 4%,
+    #3d352d 50%,
+    #352e28 96%,
+    #2a2520 100%
+  );
+  box-shadow:
+    inset 4px 0 8px rgba(0, 0, 0, 0.2),
+    inset -4px 0 8px rgba(0, 0, 0, 0.2),
+    0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.notice-card__scroll-header {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 22px;
+  letter-spacing: 0.25em;
+  color: #5a4030;
+}
+
+.dark .notice-card__scroll-header {
+  color: #d4c4a8;
+}
+
+.notice-card--scroll .notice-card-body-text {
+  color: #4a3d30;
+  line-height: 2.05;
+  text-align: justify;
+}
+
+.dark .notice-card--scroll .notice-card-body-text {
+  color: #d0c8b8;
+}
+
+.notice-card__scroll-footer {
+  margin-top: 24px;
+  text-align: right;
+  font-size: 13px;
+  color: #a08060;
+}
+
+.dark .notice-card__scroll-footer {
+  color: #b09878;
+}
+
+.notice-card__seal-mark {
+  position: absolute;
+  bottom: 45px;
+  right: 44px;
+  width: 55px;
+  height: 55px;
+  border: 2.5px solid rgba(192, 57, 43, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-8deg);
+  font-size: 17px;
+  color: rgba(192, 57, 43, 0.45);
+  font-weight: 700;
+}
+
+.notice-card__scroll-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- 火漆封信 (Wax) ---------- */
+.notice-card--wax {
+  background: linear-gradient(175deg, #fdfbf5 0%, #f8f2e6 100%);
+  padding: 48px 44px 44px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 12px 48px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(200, 185, 160, 0.25);
+}
+
+.dark .notice-card--wax {
+  background: linear-gradient(175deg, #2a2620 0%, #352e28 100%);
+  border-color: rgba(160, 140, 100, 0.2);
+}
+
+.notice-card__flap,
+.notice-card__bottom-stripe {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: repeating-linear-gradient(
+    90deg,
+    #c0392b 0px,
+    #c0392b 12px,
+    #2c3e50 12px,
+    #2c3e50 24px,
+    #c0392b 24px,
+    #c0392b 36px,
+    #f5f0e0 36px,
+    #f5f0e0 48px
+  );
+  opacity: 0.7;
+}
+
+.notice-card__flap {
+  top: 0;
+}
+
+.notice-card__bottom-stripe {
+  bottom: 0;
+}
+
+.notice-card__wax-seal {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 52px;
+  height: 52px;
+  background: radial-gradient(circle at 35% 35%, #e74c3c, #c0392b 50%, #922b21 100%);
+  border-radius: 50%;
+  box-shadow:
+    0 3px 10px rgba(146, 43, 33, 0.4),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.2),
+    inset 0 2px 4px rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.notice-card__wax-seal span {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.notice-card__wax-header {
+  text-align: center;
+  margin: 10px 0 24px;
+  font-size: 13px;
+  color: #a08060;
+  letter-spacing: 0.3em;
+}
+
+.dark .notice-card__wax-header {
+  color: #b09878;
+}
+
+.notice-card__wax-body {
+  font-size: 14.5px;
+  line-height: 2;
+  color: #4a3d30;
+  text-align: justify;
+  border-left: 2px solid rgba(192, 57, 43, 0.15);
+  padding-left: 20px;
+  margin-left: 8px;
+}
+
+.dark .notice-card__wax-body {
+  color: #d0c8b8;
+  border-left-color: rgba(192, 57, 43, 0.25);
+}
+
+.notice-card--wax .notice-card-body-text {
+  line-height: 2;
+}
+
+.notice-card__wax-footer {
+  margin-top: 28px;
+  text-align: right;
+  font-size: 13px;
+  color: #a08060;
+  padding-right: 4px;
+}
+
+.dark .notice-card__wax-footer {
+  color: #b09878;
+}
+
+.notice-card__wax-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}

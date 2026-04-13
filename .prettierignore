@@ -1,0 +1,11 @@
+dist
+node_modules
+backend/dist
+backend/node_modules
+*.log
+.env
+.env.local
+coverage
+.vscode
+.idea
+

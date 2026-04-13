@@ -1,0 +1,10 @@
+# Protonav - Automotive Electronics
+# https://protonavi.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://protonavi.com/sitemap.xml

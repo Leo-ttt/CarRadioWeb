@@ -1,0 +1,1849 @@
+{
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "preview": "Preview",
+    "download": "Download",
+    "downloadFile": "Download File",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "update": "Update",
+    "refresh": "Refresh",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "Optional",
+    "actions": "Actions",
+    "found": "Found",
+    "items": "Items",
+    "clearFilters": "Clear Filters",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "back": "Back",
+    "backToEdit": "Back to Edit",
+    "change": "Change",
+    "remove": "Remove",
+    "dragDropOrPaste": "Drag and drop files here or paste images",
+    "reset": "Reset",
+    "copy": "Copy",
+    "close": "Close",
+    "all": "All",
+    "noDescription": "No Description",
+    "previous": "Previous",
+    "next": "Next",
+    "loading": "Loading...",
+    "redirecting": "Redirecting...",
+    "search": "Search",
+    "searchPlaceholder": "Search...",
+    "noSearchResults": "No results found",
+    "image": "Image {{number}}",
+    "noData": "No Data",
+    "tryDifferentSearch": "Try different search terms",
+    "page": "Page",
+    "noDataInCategory": "No data in this category",
+    "notUploaded": "Not Uploaded",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "rotate": "Rotate",
+    "resetView": "Reset View",
+    "downloadImage": "Download Image",
+    "zoom": "Zoom",
+    "rotation": "Rotation",
+    "pressEscToClose": "Press ESC to close",
+    "dragToMove": "Drag to move",
+    "switchImage": "Switch Image",
+    "imageLoadError": "Image failed to load",
+    "fit": "Fit",
+    "fitToScreen": "Fit to Screen",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "openInNewTab": "Open in New Tab",
+    "toggleInfo": "Toggle Info",
+    "shortcuts": "Shortcuts",
+    "loadFailed": "Load Failed",
+    "cannotLoadData": "Cannot load data from server",
+    "addFailed": "Add Failed",
+    "deleteFailed": "Delete Failed",
+    "unknownError": "Unknown Error",
+    "error": "Error",
+    "vsLastMonth": "vs Last Month",
+    "deprecatedFeature": "Deprecated Feature",
+    "deprecatedDataNote": "Data is now stored in the database, local demo data is no longer supported.",
+    "suggestions": "Suggestions",
+    "createNew": "Create New",
+    "pressEnterToAdd": "Press Enter to add",
+    "success": "Success",
+    "description": "Description",
+    "refreshPage": "Please refresh page to see the latest list",
+    "processing": "Processing...",
+    "exporting": "Exporting...",
+    "importing": "Importing...",
+    "notes": "Notes",
+    "views": "Views",
+    "clickToView": "Click to View",
+    "importantNotes": "Important Notes"
+  },
+  "search": {
+    "placeholder": "Search products, documents, FAQ...",
+    "noResults": "No results found",
+    "navigate": "Navigate",
+    "select": "Select",
+    "close": "Close",
+    "loading": "Loading...",
+    "tryDifferent": "Please try different keywords or check spelling",
+    "type": {
+      "product": "Product",
+      "document": "Document",
+      "faq": "FAQ",
+      "software": "Software",
+      "manual": "Manual"
+    }
+  },
+  "announcement": {
+    "details": "Announcement Details",
+    "gotIt": "Got It",
+    "importantNotice": "— Important Notice —",
+    "sincerely": "Sincerely",
+    "sealMark": "S",
+    "waxSealChar": "N"
+  },
+  "dashboard": {
+    "title": "Vehicle Technical Knowledge Base",
+    "subtitle": "Professional Aftermarket Car Navigation & Compatibility Solutions",
+    "welcome": "Welcome to",
+    "description": "We provide comprehensive vehicle compatibility technical documentation, installation guides and professional support services.",
+    "professionalSolutions": "Professional Solutions",
+    "exploreLibrary": "Explore Our Knowledge Base",
+    "hero": {
+      "title": "Professional Automotive Electronics",
+      "subtitle": "Upgrade Your Drive with Premium CarPlay & Navigation",
+      "description": "Wireless CarPlay, Android Auto, and touchscreen navigation systems designed for seamless integration",
+      "viewProducts": "View Products",
+      "supportCenter": "Support Center"
+    },
+    "buttons": {
+      "enterKnowledge": "Enter Knowledge Base",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "badge": "Core Features",
+      "subtitle": "Advanced technology solutions for modern vehicles",
+      "professional": "Professional Quality",
+      "professionalDesc": "Years of industry experience, professional technical team",
+      "reliable": "Reliable and Stable",
+      "reliableDesc": "Rigorous testing, stable and reliable",
+      "innovative": "Continuous Innovation",
+      "innovativeDesc": "Constantly updating technology, leading industry development",
+      "professionalInstallation": "Professional Installation",
+      "reliableSupport": "Reliable Support",
+      "wideCoverage": "Wide Coverage",
+      "carplayAndroid": {
+        "title": "CarPlay & Android Auto",
+        "desc": "Wireless connection, smart integration",
+        "detailedDesc": "<h3>Carlink 2.0 Technology</h3><p>Our products feature the latest <strong>Carlink 2.0</strong> technology, supporting both wireless and wired connection methods for seamless smartphone integration with your car system.</p><h4>Connection Methods</h4><ul><li><strong>Wireless Connection</strong>: Wireless CarPlay/Android Auto via Bluetooth and Wi-Fi</li><li><strong>Wired Connection</strong>: USB cable direct connection, stable and reliable</li></ul><h4>How It Works</h4><p>For wireless connection, your phone first establishes initial pairing via <strong>Bluetooth</strong>, then automatically switches to <strong>Wi-Fi</strong> for high-speed data transmission, enabling smooth audio/video sync and touch response.</p>"
+      },
+      "hdDisplay": {
+        "title": "HD Display",
+        "desc": "IPS HD screen, crystal clear",
+        "detailedDesc": "<h3>IPS HD Display Technology</h3><p>We use high-quality <strong>IPS (In-Plane Switching)</strong> panels to deliver an exceptional visual experience.</p><h4>Display Advantages</h4><ul><li><strong>Wide Viewing Angle</strong>: 178° ultra-wide viewing angle, clear from any angle</li><li><strong>High Color Accuracy</strong>: Accurate and vibrant colors, natural and realistic images</li><li><strong>High Contrast</strong>: Deep blacks and bright whites, distinct layers</li><li><strong>Sunlight Readable</strong>: High brightness design, clearly visible even in strong outdoor light</li><li><strong>Fast Response</strong>: Low latency display, smooth touch operation without ghosting</li></ul>"
+      },
+      "processor": {
+        "title": "8-Core Processor",
+        "desc": "Powerful performance, smooth experience",
+        "detailedDesc": "<h3>8-Core High Performance Processor</h3><p>Equipped with an <strong>8-core</strong> high-performance processor, providing powerful performance for your car system.</p><h4>Performance Advantages</h4><ul><li><strong>Multitasking</strong>: Run navigation, music, calls and multiple apps simultaneously without lag</li><li><strong>Fast Boot</strong>: Quick system startup, ready to use instantly</li><li><strong>Smooth Animations</strong>: Silky smooth interface transitions, instant operation response</li><li><strong>Efficient Decoding</strong>: Supports 4K video hardware decoding, plays HD videos effortlessly</li><li><strong>Low Power Design</strong>: Smart scheduling, balancing performance and energy consumption</li></ul>"
+      },
+      "compatibility": {
+        "title": "Compatibility",
+        "desc": "Compatible with steering wheel buttons and rear camera",
+        "detailedDesc": "<h3>Perfect OEM Function Compatibility</h3><p>Our products are designed with full consideration for compatibility with original car systems, allowing you to retain convenient features while upgrading.</p><h4>Steering Wheel Button Compatibility</h4><p>Supports original <strong>steering wheel multifunction buttons</strong>, including volume control, track switching, voice control, answer/hang up calls, without changing your driving habits.</p><h4>Reverse Camera Compatibility</h4><p>Perfectly compatible with <strong>original reverse camera</strong>, automatically switches to reverse view when in reverse gear, with clear parking guidelines displayed for your driving safety.</p><h4>Other Compatibility Features</h4><ul><li>Supports original USB ports</li><li>Compatible with original audio system</li><li>Retains original A/C display (select models)</li></ul>"
+      },
+      "wireless": {
+        "title": "Wireless CarPlay",
+        "desc": "Seamless connectivity without cables"
+      },
+      "touchscreen": {
+        "title": "IPS Touchscreen",
+        "desc": "Crystal clear display with responsive touch"
+      },
+      "oemFit": {
+        "title": "OEM Fit",
+        "desc": "Factory-style integration for your vehicle"
+      },
+      "ota": {
+        "title": "OTA Updates",
+        "desc": "Regular firmware updates over-the-air"
+      }
+    },
+    "products": {
+      "title": "Featured Products",
+      "badge": "Hot Products",
+      "subtitle": "Premium solutions for modern vehicles",
+      "viewDetails": "View Details",
+      "viewAll": "View All Products",
+      "noProducts": "No products available"
+    },
+    "installation": {
+      "title": "Installation Gallery",
+      "badge": "Installation Display",
+      "subtitle": "See the transformation",
+      "before": "Before",
+      "after": "After"
+    },
+    "whyChoose": {
+      "badge": "Why Choose Us",
+      "title": "Trusted by Professionals",
+      "subtitle": "Quality products and services you can rely on",
+      "quality": {
+        "title": "Quality Assurance",
+        "desc": "Every product undergoes rigorous testing and quality control to ensure reliability and performance."
+      },
+      "support": {
+        "title": "Professional Support",
+        "desc": "Our expert team provides comprehensive technical support and guidance for all your needs."
+      },
+      "global": {
+        "title": "Global Shipping",
+        "desc": "Fast and reliable worldwide shipping with tracking and secure packaging."
+      }
+    },
+    "stats": {
+      "title": "Platform Overview",
+      "subtitle": "Real-time Platform Statistics",
+      "documents": "Technical Documents",
+      "users": "Registered Users",
+      "views": "Total Views",
+      "downloads": "Downloads",
+      "thisMonth": "This Month",
+      "vehicleModels": "Supported Models",
+      "coveringMajorBrands": "Covering Major Brands",
+      "technicalDocuments": "Technical Documents",
+      "continuouslyUpdating": "Continuously Updating",
+      "professionalUsers": "Professional Users",
+      "trustedChoice": "Trusted Choice of Professionals"
+    },
+    "whyEstablish": {
+      "title": "Your Android Navigation Support Center",
+      "intro": "Finding the right Android head unit for your vehicle can be challenging. We're here to help you resolve compatibility issues and installation needs.",
+      "problems": {
+        "title": "Common Problems",
+        "scattered": "Technical information scattered across platforms, difficult to find",
+        "compatibility": "Lack of accurate vehicle compatibility information",
+        "differences": "Different installation methods and technical differences"
+      },
+      "solution": "Get detailed compatibility guides, step-by-step installation instructions, and expert technical support - all in one place.",
+      "advantages": {
+        "coverage": "Comprehensive Coverage",
+        "tutorials": "Professional Tutorials",
+        "support": "Technical Support"
+      }
+    },
+    "contentPreview": {
+      "title": "Vehicle Content Preview",
+      "viewAll": "View All Content"
+    },
+    "images": {
+      "heroAlt": "Car Dashboard Background",
+      "installationAlt": "Car Dashboard Installation Scene",
+      "heroNotLoaded": "Hero background not loaded",
+      "checkImageSettings": "Please check image management settings",
+      "installationTitle": "Installation Scene",
+      "vehicle": "Vehicle Image"
+    },
+    "viewDetails": "View Details",
+    "scrollToExplore": "Scroll to Explore",
+    "badges": {
+      "professional": "Professional Platform",
+      "professionalFit": "Professional Fit",
+      "userRecommended": "User Recommended"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions or need technical support, please feel free to contact us",
+      "button": "Contact Us"
+    },
+    "noVehicleData": "No Vehicle Data",
+    "addVehicleDataHint": "Please add vehicle data through admin panel to view examples",
+    "clickToView": "Click to view full video",
+    "playHere": "Play here",
+    "videoUnavailable": "Video temporarily unavailable",
+    "openInNewWindow": "Open in new window",
+    "browserNotSupported": "Your browser does not support video playback",
+    "modules": {
+      "title": "Features",
+      "subtitle": "Explore Our Core Features",
+      "knowledgeBase": {
+        "title": "Knowledge Base",
+        "description": "Vehicle technical documents and compatibility information",
+        "documentsCount": "Documents",
+        "browse": "Browse Knowledge Base",
+        "search": "Search Documents"
+      },
+      "products": {
+        "title": "Products",
+        "description": "Browse our product lineup",
+        "productsCount": "Products",
+        "browse": "Browse Products",
+        "categories": "Product Categories"
+      },
+      "about": {
+        "title": "About Us",
+        "description": "Company introduction and corporate culture",
+        "pagesCount": "Pages",
+        "browse": "Learn More"
+      },
+      "software": {
+        "title": "Software Downloads",
+        "description": "Download related software and tools",
+        "downloadsCount": "Downloads",
+        "browse": "Browse Downloads"
+      }
+    }
+  },
+  "knowledge": {
+    "title": "Technical Materials",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "selectVehicle": "Please select your vehicle to access related technical materials",
+    "selectVehicleTitle": "Select Vehicle",
+    "selectVehicleDesc": "Select your vehicle's brand, model and year",
+    "documentTitle": "Document Title",
+    "documentTitlePlaceholder": "Enter document title",
+    "vehicle": "Vehicle",
+    "author": "Author",
+    "authorPlaceholder": "Enter author (optional)",
+    "summary": "Summary",
+    "summaryPlaceholder": "Enter document summary (optional)",
+    "documentType": "Document Type",
+    "article": "Rich Text Article",
+    "file": "File Upload",
+    "articleContent": "Article Content",
+    "articleContentPlaceholder": "Enter article content...",
+    "fileUpload": "File Upload",
+    "fileUploadDesc": "Drag and drop or click to select file",
+    "fileUploadFormats": "Supported formats: PDF, DOCX, Images, etc.",
+    "selectFile": "Select File",
+    "createArticle": "Create Article",
+    "uploadFile": "Upload File",
+    "editDocument": "Edit Document",
+    "saveChanges": "Save Changes",
+    "updateTime": "Update Time",
+    "uploadTime": "Upload Time",
+    "viewCount": "View Count",
+    "noTitle": "No Title",
+    "documentPassword": "Document Password",
+    "documentPasswordPlaceholder": "Enter password for this document",
+    "passwordProtectionDesc": "Vehicle research documents require password; video tutorials and general documents do not.",
+    "passwordIncorrect": "Incorrect password, please try again",
+    "searchPlaceholder": "Search technical materials...",
+    "noResults": "No results found",
+    "vehicleInfo": "Vehicle Information",
+    "year": "Year",
+    "backToSelect": "← Re-select Vehicle",
+    "backToKnowledge": "Back to Knowledge Base",
+    "documentNotFound": "Document Not Found",
+    "documentNotFoundDesc": "The document you are looking for does not exist or has been removed.",
+    "seo": {
+      "title": "Vehicle Compatibility Guide & Technical Documentation",
+      "description": "Professional automotive electronics integration solutions, vehicle compatibility guides, installation manuals and technical support for car multimedia systems",
+      "keyword1": "automotive electronics",
+      "keyword2": "vehicle compatibility",
+      "keyword3": "installation guide",
+      "keyword4": "car integration",
+      "keyword5": "head unit installation"
+    },
+    "viewMode": {
+      "card": "Card View",
+      "detailed": "Detailed View"
+    },
+    "technicalData": "Technical Materials",
+    "noVehiclesTitle": "No Vehicle Data",
+    "noVehiclesDesc": "No vehicle information has been added to the knowledge base yet. Please add vehicle data through the admin panel first.",
+    "structuredDocument": "Vehicle Data",
+    "videoTutorial": "Video Tutorial",
+    "generalDocument": "Image-Text Tutorial",
+    "documentContent": "Document Content",
+    "vehicleExteriorView": "Vehicle Exterior",
+    "introduction": "Introduction",
+    "clickToViewFullImage": "Click to view full image",
+    "noContent": "No Content",
+    "noBasicInfo": "No Basic Information",
+    "noResearchData": "No Vehicle Research Data",
+    "noResearchDataDesc": "We are organizing compatibility information, technical specifications and related research data for this vehicle model, please stay tuned.",
+    "fileDocument": "File Document",
+    "fileDocumentDesc": "This is a file type document, content is stored in file format.",
+    "supportedFeatures": "Supported Features",
+    "unsupportedFeatures": "Unsupported Features",
+    "noSupportedFeatures": "No supported features information",
+    "noUnsupportedFeatures": "No unsupported features information",
+    "compatibleModels": "Compatible Models",
+    "compatibleModelsDesc": "Compatible configuration models for this vehicle",
+    "compatibleModel": "Compatible Model",
+    "collapseDetails": "Collapse Details",
+    "viewDetails": "View Details",
+    "clickToViewDetails": "Click to view details",
+    "dashboardInteriorView": "Dashboard Interior",
+    "description": "Description",
+    "originalHost": "OEM Head Unit",
+    "oemHeadUnit": "OEM Head Unit",
+    "factoryHeadUnit": "Factory Head Unit",
+    "dashboard": "Dashboard",
+    "dashboardImage": "Dashboard Image",
+    "hostFront": "Head Unit Front",
+    "hostBack": "Head Unit Back",
+    "pinDefinition": "Pin Definition",
+    "wiringDiagram": "Wiring Diagram",
+    "installationNotes": "Installation Notes",
+    "noOptionalModules": "No optional modules available",
+    "partNumber": "Part Number",
+    "partNumberPlaceholder": "Enter OEM part number (optional)",
+    "frontImage": "Front Image",
+    "backImage": "Back Image",
+    "hostFrontImage": "Head Unit Front",
+    "hostBackImage": "Head Unit Back",
+    "pinDefinitionImage": "Pin Definition",
+    "hostDescription": "Head Unit Description",
+    "optionalModules": "Optional Modules",
+    "airConditioningPanel": "A/C Control Panel",
+    "displayBackPanel": "Display Screen Back Panel",
+    "dashboardPanel": "Dashboard Panel",
+    "incompatibleModels": "Incompatible Models",
+    "incompatibleModel": "Incompatible Model",
+    "noCompatibleModels": "No compatible models information",
+    "noIncompatibleModels": "No incompatible models",
+    "incompatibleModelsDesc": "Incompatible configuration models for this vehicle",
+    "faqs": "FAQs",
+    "faqsDesc": "Common questions and solutions during installation and use",
+    "solution": "Solution",
+    "relatedImages": "Related Images",
+    "problemImage": "Problem Image",
+    "expandAll": "Expand All",
+    "collapseAll": "Collapse All",
+    "viewAnswer": "View Answer",
+    "collapseAnswer": "Collapse Answer",
+    "incompatibleWarning": "The following models are incompatible with this product. Forced installation may cause equipment damage or functional abnormalities. Please choose carefully.",
+    "incompatibleStatistics": "Incompatibility Statistics",
+    "incompatibleModelsUnit": "Incompatible Models",
+    "incompatibleWarningText": "The above models do not support installation",
+    "noIncompatibleModelsMessage": "Congratulations! No incompatible vehicle configurations have been found.",
+    "faqStatistics": "FAQ Statistics",
+    "questionsUnit": "Questions",
+    "withImages": "With Image Descriptions",
+    "noFAQsMessage": "No FAQs yet, please contact technical support if you have questions.",
+    "featuresStatistics": "Feature Statistics",
+    "supportedFeaturesUnit": "Supported Features",
+    "unsupportedFeaturesUnit": "Unsupported Features",
+    "userFeedback": "User Feedback",
+    "userFeedbackDesc": "Share your thoughts or suggestions",
+    "noUserFeedback": "No user feedback for this document yet",
+    "addFeedback": "Add Feedback",
+    "feedbackName": "Your Name",
+    "feedbackNamePlaceholder": "Please enter your name",
+    "feedbackContent": "Feedback Content",
+    "feedbackContentPlaceholder": "Please enter your feedback or suggestions...",
+    "submitFeedback": "Submit Feedback",
+    "replies": "Replies",
+    "adminReply": "Admin Reply",
+    "replyAction": "Reply",
+    "replyPlaceholder": "Enter your reply...",
+    "submitReply": "Send",
+    "viewAllReplies": "View all {{count}} replies",
+    "collapseReplies": "Collapse",
+    "feedbackSubmitError": "Failed to submit feedback, please try again",
+    "feedbackSubmitSuccess": "Feedback submitted successfully",
+    "feedbackSubmitSuccessDesc": "Your feedback has been submitted successfully, the admin will review and reply in time",
+    "noDocumentsTitle": "No Documents",
+    "noDocumentsDesc": "No technical documents have been uploaded for this vehicle yet.",
+    "technicalTeam": "Technical Team",
+    "sections": {
+      "vehicleResearch": "Vehicle Data",
+      "vehicleResearchDesc": "Browse detailed vehicle specifications including OEM center console interior, factory head unit configurations, and more.",
+      "videoTutorials": "Video Tutorials",
+      "videoTutorialsDesc": "Watch head unit operation guides, installation tutorials, and step-by-step setup videos.",
+      "generalDocuments": "Image-Text Tutorials",
+      "generalDocumentsDesc": "Find illustrated guides for common installation procedures and troubleshooting solutions.",
+      "canbusSettings": "CANBus Settings",
+      "canbusSettingsDesc": "For certain vehicles, CAN settings must be configured to enable OEM features like steering wheel controls, door status, reverse camera, and A/C display. After connecting the CANBUS box, configure the car model in: Settings → Factory (password: 3368) → Car Model."
+    },
+    "cardSections": {
+      "supportedFeatures": "Supported Features",
+      "supportedFeaturesDesc": "View all functional features supported by this vehicle",
+      "supportedFeaturesCount": "Supports {{count}} features",
+      "compatibleModels": "Compatible Models",
+      "compatibleModelsDesc": "View all compatible vehicle configurations",
+      "compatibleModelsCount": "Contains {{count}} compatible models",
+      "incompatibleModels": "Incompatible Models",
+      "incompatibleModelsDesc": "View incompatible vehicle configuration information",
+      "incompatibleModelsCount": "Contains {{count}} incompatible models",
+      "faqs": "FAQs",
+      "faqsDesc": "View common questions during installation and use",
+      "faqsCount": "Contains {{count}} FAQs",
+      "viewDetails": "View Details",
+      "backToOverview": "Back to Overview"
+    },
+    "vehicleResearch": {
+      "title": "Vehicle Research",
+      "basicInfo": "Basic Information",
+      "basicInfoDesc": "View vehicle basic information and important notes",
+      "basicInfoLabel": "View Details",
+      "compatibility": "Compatibility Information",
+      "adaptedModels": "Compatible Models",
+      "features": "Feature Support",
+      "technicalImages": "Technical Images",
+      "installationGuide": "Installation Guide",
+      "wiringDiagram": "Wiring Diagram",
+      "dashboard": "Dashboard",
+      "interior": "Interior",
+      "noResearchData": "No Vehicle Research Data",
+      "noResearchDataDesc": "No vehicle research information available for this vehicle."
+    },
+    "videoTutorials": {
+      "title": "Video Tutorials",
+      "description": "We are organizing video tutorials for this vehicle, including installation demos, operation guides and troubleshooting videos. Please stay tuned."
+    },
+    "generalDocuments": {
+      "title": "General Documents",
+      "description": "Technical manuals, specifications and reference materials."
+    },
+    "generalDocumentsOld": {
+      "fileSize": "File Size"
+    },
+    "videos": {
+      "comingSoon": "Video content coming soon",
+      "comingSoonDesc": "We are preparing video tutorials for this vehicle. Please stay tuned."
+    },
+    "video": {
+      "title": "Video Tutorial",
+      "watchVideo": "Watch Video",
+      "backToDocuments": "Back to Documents",
+      "videoContent": "Video Content",
+      "videoDescription": "Video Description",
+      "videoLink": "Video Link",
+      "videoList": "Video List",
+      "openInNewWindow": "Open in New Window",
+      "cannotParseLink": "Cannot parse video link",
+      "currentLink": "Current Link",
+      "openVideoInNewWindow": "Open video in new window",
+      "watchInNewWindow": "Watch video in new window",
+      "browserNotSupported": "Your browser does not support video playback"
+    },
+    "viewDocument": "View Document",
+    "view": "View",
+    "general": "General",
+    "imageTextTutorial": "Image-Text Tutorial",
+    "fillCompleteDocumentInfo": "Please fill in complete document information",
+    "fillCompleteVehicleInfo": "Please fill in complete vehicle information",
+    "contentSections": "Content Sections",
+    "structuredArticle": "Vehicle Data"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Contact our technical support team",
+    "email": "Email",
+    "phone": "Phone",
+    "content": "Content",
+    "contentPlaceholder": "Enter contact info",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "form": {
+      "title": "Submit",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "orderNumber": "Reference (optional)",
+      "orderNumberHint": "Optional. Add a PO number, SKU, product model, or other reference if you have one — it helps us respond faster.",
+      "orderNumberPlaceholder": "e.g. PO-2024-001, SKU, or product model",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter subject",
+      "message": "Message",
+      "messagePlaceholder": "Describe your question or need in detail",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": {
+        "title": "Submitted Successfully!",
+        "message": "Thank you for your message! Our staff will reply to you via email within 24 hours.",
+        "note": "Please check your email, we will answer your questions as soon as possible."
+      },
+      "error": {
+        "title": "Submission Failed",
+        "message": "Sorry, there was a problem during submission. Please try again later or contact us directly.",
+        "tryAgain": "Please try again",
+        "contactDirect": "Or contact us directly"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameMinLength": "Name must be at least {{min}} characters",
+        "nameMaxLength": "Name cannot exceed {{max}} characters",
+        "namePattern": "Name can only contain letters, numbers and spaces",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "emailMaxLength": "Email cannot exceed {{max}} characters",
+        "orderNumberRequired": "This field is required",
+        "orderNumberTooShort": "If provided, use at least {{min}} characters",
+        "orderNumberTooLong": "Reference cannot exceed {{max}} characters",
+        "subjectRequired": "Subject is required",
+        "subjectMinLength": "Subject must be at least {{min}} characters",
+        "subjectMaxLength": "Subject cannot exceed {{max}} characters",
+        "subjectTooShort": "Subject must be at least {{min}} characters",
+        "subjectTooLong": "Subject cannot exceed {{max}} characters",
+        "messageRequired": "Message is required",
+        "messageMinLength": "Message must be at least {{min}} characters",
+        "messageMaxLength": "Message cannot exceed {{max}} characters",
+        "messageTooShort": "Message must be at least {{min}} characters",
+        "messageTooLong": "Message cannot exceed {{max}} characters",
+        "rateLimitExceeded": "Too many requests, please try again later",
+        "spamDetected": "Spam detected, please try again later"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Contact our technical support team through the following methods, we will provide you with professional technical support and solutions.",
+      "noData": "No contact information available.",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Business Hours",
+      "response": "Response Time",
+      "forum": "Forum",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "vk": "VK",
+      "youtube": "YouTube",
+      "clickToEnter": "Click to enter forum",
+      "clickToChat": "Click to start chat",
+      "clickToOpen": "Click to open",
+      "openTelegram": "Open Telegram",
+      "viewQRCode": "View QR Code",
+      "scanQRCode": "Scan this QR code with Telegram to add contact",
+      "selectContactMethod": "Select contact method"
+    },
+    "time": {
+      "worldTime": "World Time",
+      "currentTime": "Current Time",
+      "businessHours": "Business Hours {{start}}-{{end}}",
+      "online": "Online",
+      "offline": "Offline",
+      "customerService": "Customer Service Status",
+      "serviceDescription": "We provide online service from 09:00-18:00 China Time",
+      "zones": {
+        "china": "China",
+        "useastern": "US Eastern",
+        "uscentral": "US Central",
+        "usmountain": "US Mountain",
+        "uspacific": "US Pacific",
+        "russia": "Moscow",
+        "europe": "Europe Central"
+      }
+    },
+    "responseTime": "We typically respond to your message within 24 hours",
+    "workdays": "Workdays",
+    "workdaysDesc": "Monday to Friday 09:00-18:00",
+    "weekends": "Weekends/Holidays",
+    "weekendsDesc": "Non-business hours",
+    "urgent": "Urgent Cases",
+    "immediate": "Immediate Response",
+    "urgentDesc": "Priority handling for critical technical issues",
+    "responseNote": "We commit to responding within the promised timeframe, with urgent technical issues receiving priority",
+    "description": "If you have any questions about vehicle compatibility or installation issues, or need technical support, please fill out the form below and we will get back to you as soon as possible.",
+    "status": {
+      "pending": "Pending",
+      "read": "Read",
+      "replied": "Replied"
+    },
+    "from": "From",
+    "submitTime": "Submit Time"
+  },
+  "validation": {
+    "required": "{{field}} is required",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} cannot exceed {{max}} characters",
+    "email": "Please enter a valid {{field}}",
+    "url": "Please enter a valid {{field}}",
+    "number": "{{field}} must be a number",
+    "min": "{{field}} cannot be less than {{min}}",
+    "max": "{{field}} cannot be greater than {{max}}",
+    "pattern": "{{field}} format is incorrect"
+  },
+  "navigationOld": {
+    "home": "Home",
+    "resourceCenter": "Resource Center",
+    "knowledge": "Knowledge Base",
+    "faq": "FAQ",
+    "utilities": "Utilities",
+    "softwareDownloads": "Software Downloads",
+    "audioEqualizer": "Audio Equalizer",
+    "feedback": "Feedback",
+    "contact": "Contact",
+    "solutions": "Solutions",
+    "products": "Products",
+    "services": "Services",
+    "cases": "Cases",
+    "resources": "Resources",
+    "knowledgeBase": "Knowledge Base",
+    "community": "Community",
+    "downloads": "Downloads",
+    "tools": "Tools",
+    "news": "News",
+    "about": "About Us",
+    "support": "Support",
+    "helpCenter": "Help Center"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions",
+    "searchPlaceholder": "Search questions...",
+    "noResults": "No matching questions found",
+    "stillHaveQuestions": "Still have questions?",
+    "contactUs": "Contact Us",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "technical": "Technical",
+      "account": "Account"
+    },
+    "questions": {
+      "q1": "How to use the knowledge base?",
+      "q2": "How to download software?",
+      "q3": "How to contact technical support?",
+      "q4": "How to confirm if the product is compatible with my vehicle?",
+      "q5": "Will the original factory functions be retained after installation?",
+      "q6": "Can the original rearview camera be retained?",
+      "q7": "Can the original microphone be retained?",
+      "q8": "Can the original USB function be retained?",
+      "q9": "What is the screen material?",
+      "q10": "What is the screen resolution?",
+      "q11": "About RAM and Storage",
+      "q12": "What is the speaker power rating?"
+    },
+    "answers": {
+      "a1": "You can access the knowledge base through the navigation bar and use the search function to find the technical documents and tutorials you need.",
+      "a2": "Visit the software download page, select the software you need, and click the download button.",
+      "a3": "You can submit your questions through the contact us page, or use the feedback function to provide feedback directly.",
+      "a4": "Please send photos of your car's original head unit (front and back) to us, and we will confirm compatibility for you.",
+      "a5": "Most original factory functions can be retained.",
+      "a6": "Most vehicle models can retain the original camera. If uncertain, please contact us, or we recommend using our provided camera. Most original cameras are 480p, which may not provide good clarity after installation. Our cameras are AHD1080p.",
+      "a7": "Cannot be retained.",
+      "a8": "Not necessarily retained, depends on the vehicle model. Please provide your vehicle information for confirmation.",
+      "a9": "7-inch and 8-inch screens use IPS material, others use OLED.",
+      "a10": "Screen resolutions by size:\n• 7-inch/8-inch screens: 1024×600\n• 12.3-inch screens: 1920×720\n• 10.25-inch/10.4-inch screens: 1920×720\n• 13.35-inch screens: 1920×720",
+      "a11": "RAM (Random Access Memory):\n• Temporary storage for running programs\n• Determines system smoothness\n• Data is lost when powered off\n• Cannot be expanded\n\nStorage (Internal Storage):\n• Permanent storage for apps, files, media\n• Determines how much content can be stored\n• Data is retained when powered off\n• Can be expanded via SD card\n\nAnalogy: RAM is like a desk workspace - the larger it is, the more tasks you can handle simultaneously; Storage is like a filing cabinet - the larger it is, the more files you can store.",
+      "a12": "45W×4 (45 watts per channel, 4 channels total)"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "subtitle": "We value every suggestion",
+    "feedbackType": "Feedback Type",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "subject": "Subject",
+    "subjectPlaceholder": "Briefly describe the issue",
+    "message": "Details",
+    "messagePlaceholder": "Please describe your feedback in detail...",
+    "submit": "Submit Feedback",
+    "submitSuccess": "Submitted Successfully",
+    "submitSuccessDesc": "Thank you for your feedback, we will process it as soon as possible",
+    "submitError": "Submission failed, please try again later",
+    "thankYou": "Thank you for your feedback!",
+    "receivedMessage": "We have received your feedback and will contact you soon.",
+    "types": {
+      "general": "General Feedback",
+      "bug": "Bug Report",
+      "feature": "Feature Request",
+      "improvement": "Improvement Suggestion"
+    }
+  },
+  "layout": {
+    "logo": "AutomotiveHu",
+    "languageSwitch": "Switch Language",
+    "lightMode": "Switch to Light Mode",
+    "darkMode": "Switch to Dark Mode",
+    "scrollToTop": "Back to Top",
+    "footer": {
+      "copyright": "© {{siteName}}",
+      "taglineBottom": "Professional Automotive Electronics Technical Support",
+      "ourLocation": "Our Location",
+      "companyAddress": "Company Address",
+      "viewOnMaps": "View on Maps",
+      "contactInfo": "Contact Information",
+      "quickLinks": "Quick Links",
+      "address": "No. 9 Riverside Road, Tangxia Town, Dongguan City, Guangdong Province",
+      "tagline": "Professional Automotive Electronics Technical Support",
+      "coordinates": "Coordinates",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "disclaimer": "Disclaimer"
+    }
+  },
+  "forum": {
+    "title": "Community Forum",
+    "subtitle": "Discuss and exchange with other users, share experiences and solutions",
+    "currentForum": {
+      "title": "Visit Current Forum",
+      "description": "Our existing forum community is up and running, welcome to visit and participate in discussions",
+      "visitButton": "Visit Forum"
+    },
+    "comingSoon": {
+      "title": "Integrated Forum Coming Soon",
+      "description": "We are integrating Flarum forum into this platform, stay tuned for better user experience",
+      "status": "In Development"
+    },
+    "notYetOpen": {
+      "title": "Forum Not Yet Open",
+      "description": "The community forum is not open yet. Please check back later.",
+      "hint": "We will announce when the forum is ready."
+    },
+    "redirectingHint": "If the forum does not load, check Docker or try redeploying in Backend → Function Settings → Forum.",
+    "features": {
+      "discussions": {
+        "title": "Technical Discussions",
+        "description": "Participate in in-depth discussions related to automotive electronics technology"
+      },
+      "community": {
+        "title": "Community Help",
+        "description": "Help each other with experts and other users to solve problems"
+      },
+      "integration": {
+        "title": "Seamless Integration",
+        "description": "Perfect integration with knowledge base and document system"
+      }
+    },
+    "notice": {
+      "title": "Forum Migration Notice",
+      "description": "We are migrating and integrating the existing Flarum forum into this platform. After the migration is complete, you will be able to access the knowledge base, documents and forum discussions in the same interface. Thank you for your patience."
+    }
+  },
+  "softwareDownloads": {
+    "title": "Software Downloads",
+    "categories": "Software Categories",
+    "categoriesTab": {
+      "all": "All Categories"
+    },
+    "software": "Software Management",
+    "categoryName": "Category Name",
+    "softwareName": "Software Name",
+    "category": "Category",
+    "description": "Software Description",
+    "downloadLink": "Download Link",
+    "importantNote": "Important Note",
+    "unknownCategory": "Unknown Category",
+    "noCategoriesFound": "No software categories",
+    "noSoftwareFound": "No software",
+    "download": "Download",
+    "viewDetails": "View Details",
+    "hasImportantNote": "Contains important note",
+    "close": "Close",
+    "noSoftware": "No Software",
+    "noSoftwareDesc": "No software available for download yet, please check back later"
+  },
+  "userManual": {
+    "title": "User Manual",
+    "badge": "Product Documentation",
+    "description": "View and download product user manuals and documentation",
+    "download": "Download PDF",
+    "openInNewTab": "Open in New Tab",
+    "noManuals": "No User Manuals",
+    "noManualsDesc": "No user manuals have been uploaded yet",
+    "previewNotSupported": "Your browser does not support PDF preview"
+  },
+  "vehicleSelector": {
+    "title": "Vehicle Selection",
+    "subtitle": "Select your vehicle's brand",
+    "brand": "Brand",
+    "selectBrand": "Select Brand",
+    "model": "Model",
+    "selectModel": "Select Model",
+    "year": "Year",
+    "selectYear": "Select Year",
+    "selectedVehicle": "Selected Vehicle",
+    "confirm": "Confirm",
+    "yearInstructions": "Year Selection Instructions",
+    "yearRangeDesc": "You can select a year range (e.g., 2012-2018)",
+    "singleYearDesc": "You can select a single year (e.g., 2015)",
+    "yearSelectionTip": "Select the year range that matches your vehicle"
+  },
+  "adminAuth": {
+    "title": "Admin sign-in",
+    "subtitle": "Access the admin panel",
+    "login": "Sign in",
+    "register": "Register",
+    "resetPassword": "Reset Password",
+    "loginHint": "Sign in with email and password",
+    "registerEmailHint": "Enter your email to get a verification code",
+    "registerVerifyHint": "Enter the 6-digit code you received",
+    "registerPasswordHint": "Set your login password",
+    "forgotEmailHint": "Enter your registered email",
+    "forgotVerifyHint": "Enter the 6-digit code you received",
+    "forgotPasswordHint": "Set your new password",
+    "copyright": "© {{year}} Admin panel",
+    "emailPlaceholder": "Email address",
+    "loginIdPlaceholder": "Email or login name",
+    "passwordPlaceholder": "Password",
+    "newPasswordPlaceholder": "New password",
+    "nicknamePlaceholder": "Nickname (optional)",
+    "codePlaceholder": "6-digit code",
+    "loginButton": "Sign in",
+    "registerButton": "Complete Registration",
+    "resetPasswordButton": "Reset Password",
+    "sendCode": "Send Code",
+    "verifyButton": "Verify",
+    "resendCode": "Resend",
+    "resendIn": "Resend in {{seconds}}s",
+    "backToLogin": "Back to login",
+    "back": "Go back",
+    "codeSentTo": "Code sent to {{email}}",
+    "passwordHint": "At least 10 characters with uppercase, lowercase, and number",
+    "emailRequired": "Enter your email",
+    "loginIdRequired": "Enter email or login name",
+    "invalidEmail": "Enter a valid email address",
+    "invalidCode": "Enter the 6-digit code",
+    "passwordRequired": "Enter password",
+    "passwordTooShort": "Password must be at least 10 characters",
+    "passwordTooWeak": "Include uppercase, lowercase, and number",
+    "loginFailed": "Sign-in failed, try again",
+    "registerFailed": "Registration failed, try again",
+    "sendCodeFailed": "Failed to send code",
+    "verifyFailed": "Invalid verification code",
+    "resetPasswordFailed": "Failed to reset password",
+    "accountPendingApproval": "Registered; pending approval",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "No account? Register",
+    "errors": {
+      "invalid_credentials": "Wrong account or password",
+      "email_already_exists": "Email already registered",
+      "account_inactive": "Account inactive, contact admin",
+      "account_pending_approval": "Registered; pending approval",
+      "login_required": "Enter login name or email",
+      "password_required": "Enter password",
+      "email_and_password_required": "Enter email and password",
+      "password_too_short": "Password must be at least 10 characters",
+      "password_too_weak": "Include uppercase, lowercase, and number",
+      "invalid_email": "Enter a valid email address",
+      "invalid_type": "Invalid verification type",
+      "email_not_verified": "Email not verified, get a code first",
+      "email_code_password_required": "Enter email, code, and new password",
+      "user_not_found": "User not found",
+      "code_not_found_or_expired": "Code not found or expired",
+      "too_many_attempts": "Too many attempts, get a new code",
+      "invalid_code": "Invalid verification code",
+      "rate_limit": "Too many requests, wait a moment",
+      "smtp_not_configured": "Email service not configured",
+      "send_failed": "Failed to send email",
+      "network_error": "Network error",
+      "server_error": "Server error, try later",
+      "unknown": "Unknown error"
+    }
+  },
+  "oauthCallback": {
+    "loading": "Signing in...",
+    "backToLogin": "Back to login",
+    "errors": {
+      "login_failed": "Login failed, please try again",
+      "account_inactive": "Account inactive, contact admin",
+      "google_not_configured": "Google login not configured",
+      "github_not_configured": "GitHub login not configured",
+      "unknown_provider": "Unknown login method",
+      "unknown": "Login error, please try again"
+    }
+  },
+  "passwordProtection": {
+    "title": "Access Verification",
+    "enterPassword": "Please enter password to view document",
+    "passwordVerification": "Password Verification",
+    "enterVehiclePassword": "Please enter the document password for this vehicle",
+    "passwordPlaceholder": "Enter access password",
+    "passwordRequired": "Please enter password",
+    "passwordError": "Incorrect password, please try again",
+    "verifying": "Verifying...",
+    "enterKnowledgeBase": "Enter Knowledge Base",
+    "passwordNote": "Tip: Different vehicles or documents may use different access passwords",
+    "footerDesc": "Protected content is for technical users only",
+    "copyright": "Copyright"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "notFoundDesc": "Sorry, the page you are looking for does not exist or has been removed.",
+    "backToHome": "Back to Home",
+    "tryThese": "Try these pages",
+    "searchSuggestion": "Use the search function to find what you need",
+    "serverError": "Server Error",
+    "fileNotFound": "File not uploaded or path does not exist",
+    "uploadFailed": "Upload Failed",
+    "uploadSuccess": "Upload Successful",
+    "imageLoadFailed": "Image failed to load",
+    "cannotGetImageSize": "Cannot get image size",
+    "somethingWentWrong": "Something went wrong",
+    "loadConfigFailed": "Failed to load configuration",
+    "saveConfigFailed": "Failed to save configuration",
+    "resetConfigFailed": "Failed to reset configuration",
+    "exportConfigFailed": "Failed to export configuration",
+    "importConfigFailed": "Failed to import configuration",
+    "testConfigFailed": "Failed to test configuration",
+    "loadFailed": "Load Failed",
+    "deleteFailed": "Delete Failed",
+    "batchActionFailed": "Batch action failed",
+    "loadStatsFailed": "Failed to load statistics"
+  },
+  "audioEqualizer": {
+    "title": "EQ Adjustment Reference Tool",
+    "controlsSection": "Playback & controls",
+    "pageTitle": "EQ Adjustment Test Reference Tool",
+    "pageDescription": "EQ reference test: this page offers 37 adjustable bands (~20 Hz–20 kHz). Head units and DSPs often use 5, 10, 31, or other counts—there is no universal “37-band maximum”; map these readings to the nearest bands on your hardware.",
+    "controls": {
+      "hideSpectrum": "Hide Spectrum",
+      "showSpectrum": "Show Spectrum",
+      "savePreset": "Save Preset",
+      "reset": "Reset",
+      "simpleTest": "Simple Test",
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute"
+    },
+    "audioTypes": {
+      "guitar": "Guitar Test Audio",
+      "test": "Frequency Test Audio"
+    },
+    "labels": {
+      "audioType": "Audio Type",
+      "masterVolume": "Master Volume",
+      "balance": "Balance",
+      "realTimeSpectrum": "Real-time Spectrum",
+      "equalizer": "Equalizer",
+      "equalizerTitle": "EQ Band Selection",
+      "eqBands": "EQ Bands",
+      "currentBands": "Current Bands",
+      "outputLevel": "Output level",
+      "outputLevelFriendlyHint": "Watch the bar and the short message below—no technical units.",
+      "eqCurveSummary": "EQ curve summary (avg. gain)",
+      "bass": "Bass",
+      "mid": "Mid",
+      "treble": "Treble",
+      "referenceTrack": "Reference track",
+      "eqScrollPrev": "Scroll bands left",
+      "eqScrollNext": "Scroll bands right",
+      "meterLow": "Softer side",
+      "meterHigh": "Louder side",
+      "meterLevelSilent": "No sound yet",
+      "meterLevelSoft": "Very quiet",
+      "meterLevelLight": "Quiet",
+      "meterLevelModerate": "Moderate",
+      "meterLevelStrong": "Full",
+      "meterLevelLoud": "Loud",
+      "meterLevelVeryLoud": "Very loud",
+      "meterLevelClipHint": "Very loud — ease off the volume",
+      "filter": "Range",
+      "filterAll": "All",
+      "filterBass": "Bass",
+      "filterMid": "Mid",
+      "filterTreble": "Treble",
+      "eqFilterActiveHint": "Showing {{visible}} of {{total}} bands in this range (same splits as the summary: bass ≤250 Hz, mid 251 Hz–7.99 kHz, treble ≥8 kHz).",
+      "eqHardwareBandsNote": "Real devices use different band counts (often 5–31); this tool uses 37 reference points—not an industry-wide limit."
+    },
+    "eqBands": {
+      "10": "10 Bands (Standard)",
+      "16": "16 Bands (Enhanced)",
+      "31": "31 Bands (Professional)",
+      "37": "37-band reference EQ (this tool)",
+      "custom": "36 Bands (Full Frequency)"
+    },
+    "tips": {
+      "eqAdjustment": "Adjust bands here, then apply the same values on your device.",
+      "howToUse": "Play test audio → drag bands → note dB values for your hardware EQ."
+    },
+    "messages": {
+      "audioGenerationError": "Audio Generation Error",
+      "audioGenerationErrorDesc": "Failed to generate audio file",
+      "audioPlaybackStarted": "Audio playback started",
+      "audioPlaybackError": "Audio Playback Error",
+      "playbackErrorDesc": "Failed to play audio file",
+      "resetComplete": "Reset Complete",
+      "resetCompleteDesc": "All settings have been reset to default values",
+      "simpleTestSuccess": "Simple Test Success",
+      "simpleTestSuccessDesc": "Simple test audio started successfully",
+      "simpleTestError": "Simple Test Error",
+      "simpleTestErrorDesc": "Failed to start simple test audio",
+      "presetSaved": "Preset Saved",
+      "presetSavedDesc": "Current settings have been saved as preset",
+      "presetSavedLocal": "Saved in this browser only (sign in to sync to server)",
+      "presetSaveError": "Save failed",
+      "presetSaveErrorDesc": "Could not save to server or browser storage"
+    }
+  },
+  "passwordViewer": {
+    "title": "Document Password Viewer",
+    "subtitle": "Enter access password to view document password information",
+    "featureDisabledTitle": "Feature Not Enabled",
+    "featureDisabledDesc": "Password viewer feature is currently not enabled, please contact administrator.",
+    "enterPassword": "Please enter access password to continue",
+    "accessPassword": "Access Password",
+    "verifyPassword": "Verify Password",
+    "currentTime": "Current Time",
+    "passwordMode": "Password Mode",
+    "passwordFormat": "Password Format Description",
+    "pageDesc": "View access passwords for vehicle research documents",
+    "noDocsTitle": "No Vehicle Research Documents",
+    "noDocsDesc": "No vehicle research documents with passwords",
+    "docsUnit": "Documents",
+    "documentPassword": "Document Password"
+  },
+  "compliance": {
+    "cookieTitle": "Cookie notice",
+    "cookieBody": "We use cookies and similar technologies for analytics and to improve the site. By continuing you agree to our",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "accept": "Accept"
+  },
+  "newsletter": {
+    "title": "Subscribe",
+    "contactDescription": "Get product updates and announcements. We only email people who opt in, and you can unsubscribe anytime.",
+    "placeholder": "Email address",
+    "submit": "Subscribe",
+    "success": "Thanks — you are subscribed.",
+    "error": "Could not subscribe. Check your email or try later.",
+    "disabled": "Subscriptions are closed.",
+    "unsubTitle": "Unsubscribe",
+    "unsubWorking": "Processing…",
+    "unsubOk": "You have been unsubscribed.",
+    "unsubBad": "Invalid or expired link."
+  },
+  "legal": {
+    "registeredVersion": "Registered version",
+    "effective": "Effective",
+    "lastUpdated": "Last Updated",
+    "backToPrevious": "Back to Previous Page",
+    "visitContact": "Visit Contact Page",
+    "year": "Year",
+    "month": "Month",
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "Privacy Policy",
+      "intro": {
+        "title": "1. Introduction",
+        "content": "Welcome to our website. We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose and protect the information you provide when using our website and services."
+      },
+      "collection": {
+        "title": "2. Information We Collect",
+        "provided": {
+          "title": "2.1 Information You Provide",
+          "desc": "When you use our contact form, subscribe to newsletters or participate in other interactions, we may collect the following information:",
+          "items": ["Name", "Email address", "Phone number (if provided)", "Message content", "Other information you choose to share with us"]
+        },
+        "automatic": {
+          "title": "2.2 Automatically Collected Information",
+          "desc": "Our servers may automatically collect the following information:",
+          "items": ["IP address", "Browser type and version", "Operating system", "Access time and date", "User agent information"]
+        }
+      },
+      "usage": {
+        "title": "3. Use of Information",
+        "desc": "We use the information collected for the following purposes:",
+        "items": ["Provide, maintain and improve our services", "Respond to your inquiries and support requests", "Send technical announcements and updates", "Provide you with relevant information and products", "Improve user experience and website performance", "Comply with legal requirements"]
+      },
+      "security": {
+        "title": "4. Information Security",
+        "desc": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction. These measures include:",
+        "items": ["Encrypted data transmission", "Using secure server infrastructure", "Restricting access to personal information", "Regular security audits and updates"]
+      },
+      "sharing": {
+        "title": "5. Information Sharing",
+        "desc": "We will not sell, trade or rent your personal information to third parties. We will only disclose your information in the following circumstances:",
+        "items": ["You explicitly consent to us doing so", "Required by law or judicial proceedings", "To maintain our terms of service and other agreements", "To protect our, your or others' rights, privacy or safety"]
+      },
+      "cookies": {
+        "title": "6. Cookies and Tracking Technologies",
+        "content": "Our website may use cookies and similar tracking technologies to enhance your user experience. You can control the use of cookies through your browser settings."
+      },
+      "rights": {
+        "title": "7. Your Rights",
+        "desc": "Under applicable data protection laws, you may have the following rights:",
+        "items": ["Access personal information we hold about you", "Correct inaccurate personal information", "Delete your personal information", "Restrict our use of your personal information", "Obtain a copy of your personal information"]
+      },
+      "contact": {
+        "title": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy or concerns about how we handle your personal information, please contact us through the following:"
+      },
+      "changes": {
+        "title": "9. Policy Changes",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the revised policy on the website and updating the 'Last Updated' date."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "subtitle": "Terms of Service",
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you accept these terms of service. If you do not agree with any part of these terms, please do not use this website. We reserve the right to modify these terms at any time. Continued use of this website indicates your acceptance of any modifications."
+      },
+      "license": {
+        "title": "2. Use License",
+        "allowedTitle": "You may:",
+        "allowed": ["View information and documents on the website", "Download relevant documents and resources", "Access services we provide"],
+        "prohibitedTitle": "You may not:",
+        "prohibited": ["Copy or modify content on this website without permission", "Use this website for any illegal or harmful activities", "Attempt unauthorized access to any part of this website", "Harass or harm other users"],
+        "intro": "We grant you a limited, non-exclusive, non-transferable license to browse and use the content on this website."
+      },
+      "ip": {
+        "title": "3. Intellectual Property Rights",
+        "content": "All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads and data compilations, is the proprietary property of us or our content providers. This content is protected by copyright and other relevant intellectual property laws."
+      },
+      "asIs": {
+        "title": "4. Content Provided 'As Is'",
+        "content": "Content and information on this website are provided 'as is'. We do not make any express or implied representations or warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose or non-infringement."
+      },
+      "liability": {
+        "title": "5. Limitation of Liability",
+        "content": "In no event shall we be liable for any direct, indirect, incidental, special or consequential damages arising from the use of this website or services provided through this website, including but not limited to loss of profits or data."
+      },
+      "thirdParty": {
+        "title": "6. Third Party Links",
+        "content": "This website may contain links to third party websites. We are not responsible for the content, accuracy or practices of these third party websites. You access third party websites at your own risk and must comply with their terms and conditions."
+      },
+      "conduct": {
+        "title": "7. User Conduct",
+        "desc": "You agree not to on this website:",
+        "items": ["Post any illegal, harmful, threatening, abusive, harassing or derogatory content", "Engage in spam, phishing or fraudulent activities", "Upload viruses, malware or any other code that could harm computers", "Interfere with or circumvent any security features of this website"]
+      },
+      "account": {
+        "title": "8. Account and Password",
+        "content": "If this website provides user account features, you are responsible for maintaining the confidentiality of account information and for all activities that occur under your account. You must immediately notify us of any unauthorized use of your account."
+      },
+      "termination": {
+        "title": "9. Service Termination",
+        "content": "We reserve the right to terminate or restrict your access to this website at any time for any reason or no reason. In such event, you are responsible for stopping use of the website and destroying any downloaded or printed copies of content."
+      },
+      "law": {
+        "title": "10. Governing Law",
+        "content": "These terms of service are governed by and construed in accordance with the laws of the People's Republic of China. Any litigation related to these terms shall be conducted in the People's Courts of China."
+      },
+      "contact": {
+        "title": "11. Contact Us",
+        "content": "If you have any questions about these terms of service, please contact us through the following:"
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "subtitle": "Disclaimer",
+      "general": {
+        "title": "1. General Disclaimer",
+        "content": "This website and all its content (including but not limited to text, graphics, images, videos, audio and data) are provided 'as is'. We strive to ensure the accuracy and completeness of information, but we do not provide any warranties regarding its accuracy, completeness, timeliness or suitability."
+      },
+      "technical": {
+        "title": "2. Technical Information Disclaimer",
+        "content": "Technical information, specifications and compatibility guides provided on this website are for reference only. While we strive to ensure the accuracy of this information, we do not make any representations or warranties regarding its accuracy, completeness or applicability.",
+        "warning": "⚠️ Important Note: Before performing any installation or modifications, please consult professional technicians. Different vehicle and device combinations may have different compatibility issues."
+      },
+      "installation": {
+        "title": "3. Installation and Use Responsibility",
+        "desc": "When using information provided on this website for installation or any other operations, you do so entirely at your own risk. We are not responsible for:",
+        "items": ["Equipment damage or failure", "Data loss or corruption", "Personal injury during installation", "Any other losses resulting from following our guidance"]
+      },
+      "thirdParty": {
+        "title": "4. Third Party Content and Links",
+        "content1": "This website may contain links to third party websites or provider content. We are not responsible for the content, accuracy, legality or completeness of these third party resources.",
+        "content2": "When accessing third party websites or using third party services, you must comply with these providers' terms and conditions."
+      },
+      "professional": {
+        "title": "5. Professional Advice",
+        "content": "Content on this website should not be considered professional advice. For specific technical issues or concerns, please consult qualified professionals."
+      },
+      "warranty": {
+        "title": "6. Warranty Disclaimer",
+        "desc": "Unless explicitly stated otherwise, we do not make any express or implied warranties regarding all content, products and services provided on this website, including but not limited to:",
+        "items": ["Warranty of merchantability", "Warranty of fitness for a particular purpose", "Warranty of non-infringement", "Warranty of security or accuracy", "Warranty of continuous availability"]
+      },
+      "liability": {
+        "title": "7. Limitation of Liability",
+        "content": "In no event shall we, our directors, employees or agents be liable for any direct, indirect, incidental, special or consequential damages (including but not limited to loss of profits, business interruption or data loss) arising from the use of or inability to use this website, even if we have been advised of the possibility of such damages."
+      },
+      "assumption": {
+        "title": "8. Your Assumption",
+        "content": "You agree that when using this website, you assume all risks. You expressly agree to release us from any claims arising from the use of this website or information."
+      },
+      "law": {
+        "title": "9. Applicable Law",
+        "content": "This disclaimer is governed by the laws of the People's Republic of China. Any litigation related to this disclaimer shall be conducted in the People's Courts of China."
+      },
+      "modifications": {
+        "title": "10. Right to Modify",
+        "content": "We reserve the right to modify this disclaimer at any time. Continued use of this website indicates your acceptance of any modifications."
+      },
+      "contact": {
+        "title": "11. Contact Us",
+        "content": "If you have any questions about this disclaimer, please contact us through the following:"
+      }
+    }
+  },
+  "category": {
+    "category": "Category",
+    "selectOrCreate": "Select or Create Category",
+    "selectOrCreateCategory": "Select existing category or create new category",
+    "searchCategories": "Search categories",
+    "noMatchingCategories": "No matching categories",
+    "noCategories": "No categories",
+    "createNew": "Create New Category",
+    "categoryName": "Category Name",
+    "categoryDescription": "Category Description (optional)",
+    "categoryCreated": "Category created successfully",
+    "categoryUpdated": "Category updated successfully",
+    "categoryDeleted": "Category deleted successfully",
+    "backToCategories": "Back to Categories",
+    "noVideosInCategory": "No video tutorials in this category",
+    "noDocumentsInCategory": "No image-text tutorials in this category",
+    "videoCategoriesComingSoon": "Video tutorial categories are under construction",
+    "documentCategoriesComingSoon": "Image-text tutorial categories are under construction",
+    "selectVideoCategory": "Select video tutorial category",
+    "selectDocumentCategory": "Select image-text tutorial category",
+    "documents": "Documents",
+    "searchVideos": "Search video tutorials...",
+    "searchDocuments": "Search image-text tutorials...",
+    "searchResultsFor": "Search results for \"{{query}}\"",
+    "noSearchResults": "No matching content found"
+  },
+  "ai": {
+    "label": "AI",
+    "title": "AI Technical Assistant",
+    "subtitle": "Intelligent Automotive Technology Consultation",
+    "close": "Close",
+    "minimize": "Minimize",
+    "settings": "Settings",
+    "clearChat": "Clear Chat",
+    "typing": "Typing...",
+    "attachFile": "Attachment",
+    "inputPlaceholder": "Please enter your question...",
+    "startRecording": "Start Recording",
+    "stopRecording": "Stop Recording",
+    "sendMessage": "Send Message",
+    "processing": "Processing...",
+    "windowSize": {
+      "normal": "Normal Size",
+      "large": "Large Window",
+      "fullscreen": "Fullscreen",
+      "restore": "Restore Normal Size",
+      "enlarge": "Enlarge Window"
+    },
+    "settingsPanel": {
+      "title": "AI Settings",
+      "model": "Model",
+      "creativity": "Creativity",
+      "tip": "Tip: These settings affect AI response style and creativity",
+      "saveSuccess": "Settings saved",
+      "saveError": "Failed to save settings"
+    },
+    "welcome": {
+      "title": "Welcome to AI Technical Assistant",
+      "subtitle": "I can help you answer automotive technology related questions",
+      "features": "I can help you with:",
+      "feature1": "Query vehicle compatibility information",
+      "feature2": "Provide installation guidance and technical support",
+      "feature3": "Answer FAQs and troubleshooting",
+      "feature4": "Recommend related documents and video tutorials"
+    },
+    "quickQuestions": {
+      "compatibility": "Is my vehicle compatible?",
+      "installation": "How to install?",
+      "troubleshooting": "What to do when encountering problems?"
+    },
+    "error": {
+      "general": "Sorry, I encountered some problems. Please try again later.",
+      "network": "Network connection failed. Please check your network and try again."
+    },
+    "assistant": "AI Assistant",
+    "globalAvailable": "Globally Available",
+    "sources": {
+      "title": "📚 Related Knowledge Base Content:",
+      "types": {
+        "general": "Image-Text Tutorial",
+        "video": "Video Tutorial",
+        "structured": "Vehicle Data"
+      },
+      "relatedFAQs": "Related FAQs:",
+      "viewMore": "View {{count}} more related content →"
+    }
+  },
+  "pages": {
+    "services": "Services",
+    "servicesDescription": "Professional technical support and services",
+    "products": "Products",
+    "productsDescription": "Browse our product lineup",
+    "news": "News",
+    "newsDescription": "Latest industry news and company updates",
+    "cases": "Cases",
+    "casesDescription": "Success stories and practical applications",
+    "about": "About Us",
+    "aboutDescription": "Learn about our team and mission",
+    "noNews": "No News",
+    "noProducts": "No Products",
+    "noServices": "No Services",
+    "noCases": "No Cases",
+    "aboutUnderConstruction": "About Us page content is under construction",
+    "stayTunedNews": "Stay tuned for the latest news",
+    "stayTunedProducts": "Stay tuned for more product releases",
+    "stayTunedServices": "Stay tuned for more service launches",
+    "stayTunedCases": "Stay tuned for more success stories"
+  },
+  "aboutPage": {
+    "defaultTitle": "About Us",
+    "defaultSubtitle": "Focus on automotive electronics technology innovation, providing professional solutions for customers",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "coreValuesTitle": "Our Core Values",
+    "coreValuesSubtitle": "Uphold principles, pursue excellence",
+    "customerFirst": "Customer First",
+    "customerFirstDesc": "Always put customer needs first, provide service experience beyond expectations",
+    "innovation": "Innovation Driven",
+    "innovationDesc": "Continuous technological innovation, leading industry development, creating greater value for customers",
+    "quality": "Quality Assurance",
+    "qualityDesc": "Strict quality management system, ensure high standards for every product and service",
+    "yearsExperience": "Years of Industry Experience",
+    "clients": "Partner Clients",
+    "successCases": "Success Cases",
+    "teamMembers": "Professional Team",
+    "milestoneTitle": "Development History",
+    "milestoneSubtitle": "Continuous innovation, continuous growth",
+    "ctaTitle": "Let's Create More Possibilities Together",
+    "ctaSubtitle": "Welcome to contact us and explore cooperation opportunities",
+    "contactNow": "Contact Us Now"
+  },
+  "audioGenerator": {
+    "title": "High Quality Audio File Generator",
+    "description": "This tool can generate high quality audio files for audio equalizer testing. Generated audio files are more natural and pleasant than real-time generated audio.",
+    "audioTypes": {
+      "piano": "Piano Music",
+      "pianoDesc": "20 second looping piano music with natural piano tones and vibrato effects",
+      "pop": "Pop Music",
+      "popDesc": "16 second looping pop music with drums, bass line and chord accompaniment",
+      "jazz": "Jazz Music",
+      "jazzDesc": "20 second looping jazz music with saxophone tones and swing rhythm",
+      "guitar": "Guitar Test",
+      "guitarDesc": "12 second looping guitar string test audio with guitar-specific harmonic structure",
+      "frequency": "Frequency Test",
+      "frequencyDesc": "15 second looping multi-frequency test audio for audio system testing",
+      "all": "Generate All",
+      "allDesc": "Generate all types of audio files at once"
+    },
+    "buttons": {
+      "generate": "Generate {{type}}",
+      "generateAll": "Generate All",
+      "generating": "Generating..."
+    },
+    "messages": {
+      "success": "Audio file generation complete",
+      "successDesc": "All audio files have been generated and started downloading",
+      "singleSuccessDesc": "{{type}} audio file has been generated and started downloading",
+      "error": "Generation Failed",
+      "errorDesc": "An error occurred during audio file generation"
+    },
+    "generatedFiles": {
+      "title": "Generated Files",
+      "successMessage": "Audio files have been generated! Please place the downloaded files in",
+      "directory": "public/audio/",
+      "usageHint": "directory, then use in the audio equalizer."
+    },
+    "instructions": {
+      "title": "Instructions",
+      "step1Title": "Step 1: Generate Audio Files",
+      "step1Desc": "Click the buttons above to generate audio files, files will automatically download to your downloads directory.",
+      "step2Title": "Step 2: Place Audio Files",
+      "step2Desc": "Move the downloaded audio files to the project's",
+      "step2Directory": "public/audio/",
+      "step2Suffix": "directory.",
+      "step3Title": "Step 3: Use in Equalizer",
+      "step3Desc": "Modify the audio equalizer component to use these real audio files instead of real-time generated audio.",
+      "featuresTitle": "Audio File Features",
+      "feature1": "High quality WAV format, 44.1kHz sample rate",
+      "feature2": "Stereo output, suitable for audio testing",
+      "feature3": "Loop playback, suitable for equalizer adjustment",
+      "feature4": "Natural tones and rhythms",
+      "feature5": "Contains rich frequency content"
+    }
+  },
+  "generalDocuments": {
+    "technicalArticle": "Technical Article",
+    "technicalDocument": "Technical Document",
+    "technicalTeam": "Technical Team",
+    "filePath": "File Path",
+    "uploadTime": "Upload Time",
+    "viewCount": "View Count"
+  },
+  "languages": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "shop": "Shop",
+    "support": "Support",
+    "quality": "Quality",
+    "news": "News",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "knowledge": "Knowledge Base",
+    "softwareDownloads": "Software Downloads",
+    "audioEqualizer": "Audio Equalizer",
+    "knowledgeBase": "Knowledge Base",
+    "knowledgeBaseDesc": "Technical docs & tutorials",
+    "userManual": "User Manual",
+    "userManualDesc": "Product operation guide",
+    "downloads": "Downloads",
+    "downloadsDesc": "Software & firmware",
+    "forums": "Forums",
+    "forumsDesc": "Community discussions",
+    "audioTuner": "Audio Tuner",
+    "audioTunerDesc": "EQ settings generator",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "disclaimer": "Disclaimer",
+    "resources": "Resources",
+    "megaMenu": {
+      "docs": "Documentation",
+      "tools": "Tools",
+      "community": "Community"
+    }
+  },
+  "quality": {
+    "hero": {
+      "title": "Quality Assurance",
+      "subtitle": "Rigorous quality control, trusted by professionals worldwide"
+    },
+    "processFlow": {
+      "title": "Quality Control Process",
+      "subtitle": "Every product undergoes our rigorous 6-step quality control process",
+      "badge": "Quality Assurance",
+      "step": "Step",
+      "completed": "Completed"
+    },
+    "stats": {
+      "agingTest": "Aging Test Duration",
+      "tempRange": "Temperature Range",
+      "inspection": "Inspection Rate",
+      "steps": "QC Steps"
+    },
+    "process": {
+      "iqc": {
+        "title": "IQC - Incoming Quality Control",
+        "desc": "Strict inspection of all incoming materials and components"
+      },
+      "assembly": {
+        "title": "Assembly",
+        "desc": "Professional assembly process with skilled technicians"
+      },
+      "aging": {
+        "title": "Aging Test",
+        "desc": "8-hour continuous operation test to ensure reliability"
+      },
+      "temp": {
+        "title": "Temperature Test",
+        "desc": "High and low temperature testing (-25°C to 80°C)"
+      },
+      "vibration": {
+        "title": "Vibration Test",
+        "desc": "Automotive-grade vibration testing for durability"
+      },
+      "final": {
+        "title": "Final Inspection",
+        "desc": "Comprehensive quality check before packaging"
+      }
+    },
+    "certifications": {
+      "title": "International Certifications",
+      "subtitle": "Compliant with global quality and safety standards",
+      "clickToView": "Click to view"
+    },
+    "certs": {
+      "iatf16949": "IATF 16949 Automotive Quality Management System",
+      "iso14001": "ISO 14001 Environmental Management System",
+      "iso9001": "ISO 9001 Quality Management System",
+      "fcc": "FCC Certified"
+    },
+    "cta": {
+      "title": "Experience Our Quality",
+      "subtitle": "Every product undergoes rigorous testing",
+      "viewProducts": "View Products",
+      "contactUs": "Contact Us"
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Products",
+      "subtitle": "Premium aftermarket car navigation and entertainment systems"
+    },
+    "categories": {
+      "all": "All Products",
+      "carplay": "Wireless CarPlay",
+      "screens": "Touch Screens",
+      "accessories": "Accessories"
+    },
+    "viewDetails": "View Details",
+    "noProducts": "No products found in this category",
+    "items": {
+      "carplay": {
+        "title": "Wireless CarPlay & Android Auto",
+        "desc": "Seamless smartphone integration for your vehicle",
+        "feature1": "Wireless CarPlay & Android Auto",
+        "feature2": "IPS Touchscreen Display",
+        "feature3": "OEM-Style Fit"
+      }
+    },
+    "cta": {
+      "title": "Need Help Choosing?",
+      "subtitle": "Our team can help you find the perfect solution",
+      "contact": "Contact Sales"
+    }
+  },
+  "productDetail": {
+    "newProduct": "New Product",
+    "buyOnAmazon": "Buy on Amazon",
+    "requestQuote": "Request Quote",
+    "specifications": {
+      "title": "Technical Specifications"
+    },
+    "installation": {
+      "title": "Installation Guide",
+      "subtitle": "Step-by-step installation instructions",
+      "step": "Step"
+    },
+    "compatibility": {
+      "title": "Compatible Vehicles",
+      "subtitle": "Verified compatibility for the following vehicles",
+      "notListed": "Can't find your vehicle?",
+      "contactUs": "Contact Us for Compatibility Check"
+    },
+    "support": {
+      "title": "Need Technical Support?",
+      "subtitle": "Access manuals, guides, and knowledge base",
+      "downloadManual": "Download Manual",
+      "visitKnowledgeBase": "Visit Knowledge Base"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "slogan": "Innovation, Quality, Trust"
+    },
+    "intro": {
+      "title": "Who We Are",
+      "paragraph1": "We are a leading manufacturer of premium aftermarket automotive electronics, specializing in wireless CarPlay, Android Auto, and touchscreen navigation systems. With years of industry experience, we deliver professional solutions to customers worldwide.",
+      "paragraph2": "Our products combine cutting-edge technology with OEM-quality manufacturing, ensuring seamless integration and reliable performance for your vehicle."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide innovative, high-quality automotive electronics that enhance the driving experience while maintaining the highest standards of safety and reliability."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the global leader in aftermarket automotive electronics, recognized for innovation, quality, and customer satisfaction."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "quality": {
+        "title": "Quality First",
+        "desc": "Rigorous quality control and testing"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Continuous R&D and technology advancement"
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "desc": "Dedicated support and service"
+      },
+      "global": {
+        "title": "Global Reach",
+        "desc": "Serving customers worldwide"
+      }
+    },
+    "capabilities": {
+      "title": "Our Capabilities",
+      "subtitle": "From design to delivery, we control every step",
+      "design": "In-house design and R&D team",
+      "manufacturing": "Modern manufacturing facilities",
+      "quality": "ISO-certified quality management",
+      "support": "Global technical support network",
+      "imageAlt": "Modern automotive electronics manufacturing facility"
+    },
+    "milestones": {
+      "title": "Our Journey",
+      "badge": "Milestone",
+      "founded": {
+        "title": "Company Founded",
+        "desc": "Started with a vision to transform automotive electronics"
+      },
+      "expansion": {
+        "title": "Global Expansion",
+        "desc": "Expanded to serve customers in North America and Europe"
+      },
+      "iso": {
+        "title": "ISO Certification",
+        "desc": "Achieved ISO 9001 quality management certification"
+      },
+      "market": {
+        "title": "Market Leadership",
+        "desc": "Became a leading supplier in the aftermarket segment"
+      }
+    },
+    "market": {
+      "title": "Global Presence",
+      "content": "We serve customers in over 50 countries with 24/7 technical support and localized service. Our North American operations ensure fast delivery and dedicated customer care.",
+      "countries": "Countries",
+      "clients": "Happy Clients",
+      "support": "Support"
+    },
+    "cta": {
+      "title": "Partner With Us",
+      "subtitle": "Let's discuss how we can help your business",
+      "contact": "Contact Us",
+      "learnMore": "Learn More"
+    }
+  },
+  "config": {
+    "tabs": {
+      "modules": "Modules",
+      "storage": "Storage",
+      "content": "Content",
+      "thirdParty": "Third Party"
+    },
+    "modules": {
+      "title": "Module Configuration",
+      "description": "Configure system modules status and display order"
+    },
+    "storage": {
+      "title": "Storage Configuration",
+      "description": "Configure file storage providers",
+      "currentProvider": "Current Provider",
+      "uploadPath": "Upload Path",
+      "baseUrl": "Base URL",
+      "oss": {
+        "title": "Aliyun OSS Config",
+        "accessKeyId": "AccessKeyId",
+        "accessKeySecret": "AccessKeySecret",
+        "bucket": "Bucket",
+        "region": "Region",
+        "endpoint": "Endpoint",
+        "pathPrefix": "Path Prefix",
+        "pathPrefixPlaceholder": "knowledge-base/",
+        "pathPrefixHint": "File storage path prefix, leave empty to store at bucket root",
+        "testHint": "Test Instructions",
+        "testHintDetail": "Clicking 'Test Connection' will use the complete configuration saved in the database. Please save the configuration before testing."
+      }
+    },
+    "content": {
+      "title": "Content Configuration",
+      "description": "Configure content related settings",
+      "global": "Global Settings",
+      "cache": "Cache Settings",
+      "enableSearch": "Enable Search",
+      "enableMultiLanguage": "Enable Multi-language",
+      "enableContentCache": "Enable Content Cache",
+      "cacheExpiration": "Cache Expiration (seconds)"
+    },
+    "thirdParty": {
+      "title": "Third Party Configuration",
+      "description": "Configure third party service integration (DingTalk, OSS, etc.)"
+    },
+    "dingtalk": {
+      "title": "DingTalk Bot Configuration",
+      "enabled": "Enable DingTalk Notifications",
+      "webhook": "Webhook URL",
+      "secret": "Signature Secret",
+      "webhookPlaceholder": "https://oapi.dingtalk.com/robot/send?access_token=...",
+      "secretPlaceholder": "SEC...",
+      "enableLabel": "Enable Label",
+      "usageTitle": "Use Cases",
+      "usage1": "Form submission notifications (Contact us, Feedback, etc.)",
+      "usage2": "Vehicle data upload notifications",
+      "usage3": "Video/Tutorial upload notifications",
+      "usage4": "System important event notifications",
+      "usageLabel1": "For general documents",
+      "usageLabel2": "For video documents",
+      "usageLabel3": "For structured vehicle data",
+      "usageLabel4": "For product data"
+    },
+    "enabled": "Enabled",
+    "displayOrder": "Display Order",
+    "lastSaved": "Last Saved",
+    "testConnection": "Test Connection",
+    "saveChanges": "Save Changes"
+  },
+  "admin": {
+    "announcement": {
+      "noticeCardStyle": "Notice card style",
+      "noticeStyleGlass": "Glass morphism",
+      "noticeStyleScroll": "Scroll / Parchment",
+      "noticeStyleWax": "Wax seal envelope",
+      "sectionContent": "Content & Image",
+      "sectionContentDesc": "Edit announcement text; image is optional and only shown in the detail modal.",
+      "sectionStyle": "Banner Style & Preview",
+      "sectionBehavior": "Behavior",
+      "sectionBehaviorDesc": "Scrolling, closable, and remember days"
+    },
+    "siteImages": {
+      "title": "Site Images Management",
+      "description": "Manage homepage Hero image and installation before/after comparison images",
+      "loading": "Loading...",
+      "heroImage": "Hero Background Image",
+      "installBeforeImage": "Installation Before Image",
+      "installAfterImage": "Installation After Image",
+      "imageUrl": "Image URL",
+      "imageUrlPlaceholder": "Enter image URL or upload image",
+      "uploadImage": "Upload Image",
+      "uploading": "Uploading...",
+      "preview": "Preview",
+      "heroImageDesc": "Background image for homepage Hero section",
+      "installBeforeImageDesc": "Before installation comparison image",
+      "installAfterImageDesc": "After installation comparison image",
+      "lastUpdate": "Last Updated",
+      "save": "Save Configuration",
+      "saving": "Saving...",
+      "reset": "Reset to Default",
+      "resetConfirm": "Are you sure you want to reset to default images?",
+      "saveSuccess": "Image configuration saved successfully",
+      "saveFailed": "Failed to save image configuration",
+      "uploadSuccess": "Image uploaded successfully",
+      "uploadFailed": "Failed to upload image",
+      "loadFailed": "Failed to load image configuration",
+      "resetSuccess": "Reset to default images successfully",
+      "resetFailed": "Failed to reset",
+      "invalidFileType": "Please select an image file",
+      "fileTooLarge": "File size cannot exceed 5MB",
+      "unsavedChanges": "You have unsaved changes",
+      "usageTips": "Usage Tips",
+      "tip1": "Recommended Hero image size: 1920x1080px",
+      "tip2": "Recommended installation image size: 800x600px",
+      "tip3": "Supports JPG, PNG, WebP formats",
+      "tip4": "Images will be automatically uploaded to OSS storage"
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Curated collection of useful automotive industry resources and tools.",
+    "totalCount": "{{count}} resources across {{categories}} categories",
+    "searchPlaceholder": "Search resources...",
+    "noResults": "No matching resources found.",
+    "empty": "No resources available yet.",
+    "categories": "Categories",
+    "disclaimer": "These are third-party resources for reference only. We are not affiliated with any of these websites."
+  },
+  "canbus": {
+    "title": "CANBus Settings",
+    "description": "Select your vehicle to view CANBus settings",
+    "canboxReference": "CANBox Type Reference (for identification)",
+    "selectVehicle": "Select Your Vehicle",
+    "brand": "Brand",
+    "model": "Model",
+    "year": "Year",
+    "selectBrand": "Select Brand",
+    "selectModel": "Select Model",
+    "selectYear": "Select Year",
+    "settingImage": "Settings Image",
+    "clickToEnlarge": "Click to enlarge",
+    "noSettingFound": "No settings found for this vehicle",
+    "noVehiclesAvailable": "No vehicles available"
+  }
+}

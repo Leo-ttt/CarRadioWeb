@@ -1,0 +1,83 @@
+/* Logo 样式 - 使用图片版本 */
+.logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* Logo 图片样式 */
+.logo-image {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  transition: all 0.25s ease;
+  filter: brightness(1.05) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+.logo-container:hover .logo-image {
+  filter: brightness(1.15) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+  transform: scale(1.02);
+}
+
+/* 备用文字 Logo（当图片加载失败时） */
+.logo-glass {
+  position: relative;
+  background: transparent;
+  padding: 8px 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: white;
+  transition: all 0.25s ease;
+  text-align: center;
+  min-width: 0;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-glass:hover {
+  color: #60a5fa;
+}
+
+/* 底部指示线（可选） */
+.logo-rainbow-border {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+  border-radius: 1px;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: all 0.25s ease;
+}
+
+.logo-container:hover .logo-rainbow-border {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .logo-image {
+    height: 36px;
+  }
+  
+  .logo-glass {
+    padding: 6px 0;
+    font-size: 1.15rem;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    height: 32px;
+  }
+}

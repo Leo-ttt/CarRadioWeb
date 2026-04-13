@@ -1,0 +1,13 @@
+fix: 修复安全漏洞和性能问题
+
+1. 安全修复:
+   - 修复 TOCTOU 竞态条件（passport.ts, oauth.ts）
+   - Session Secret 生产环境强制配置（index.ts）
+   - 统一 CSRF SameSite 策略（tokenCookie.ts）
+
+2. 性能优化:
+   - 前端 API 并行调用（About.tsx）
+   - 数据库 N+1 查询改为批量操作（documentService.ts）
+
+3. 代码质量:
+   - 修复 DocumentManager.tsx 类型错误

@@ -1,0 +1,150 @@
+name: CD Deploy
+
+on:
+  workflow_run:
+    workflows: ['CI Pipeline']
+    types: [completed]
+    branches: [main]
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  # ==================== 部署检查 ====================
+  deploy-check:
+    name: Deployment Check
+    runs-on: ubuntu-latest
+    outputs:
+      can-deploy: ${{ steps.check.outputs.can_deploy }}
+    steps:
+      - name: Check workflow result
+        id: check
+        run: |
+          if [ "${{ github.event.workflow_run.conclusion }}" == "success" ]; then
+            echo "can_deploy=true" >> $GITHUB_OUTPUT
+          else
+            echo "can_deploy=false" >> $GITHUB_OUTPUT
+          fi
+
+  # ==================== 构建产物 ====================
+  prepare-deploy:
+    name: Prepare Deployment
+    runs-on: ubuntu-latest
+    needs: deploy-check
+    if: needs.deploy-check.outputs.can-deploy == 'true'
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Build backend
+        run: |
+          cd backend
+          npm ci
+          npm run build
+
+      - name: Create deployment package
+        run: |
+          mkdir -p deploy
+          cp -r dist deploy/
+          cp -r backend/dist deploy/
+          cp -r backend/node_modules deploy/backend-node_modules
+          cp backend/package.json deploy/
+          cp backend/package-lock.json deploy/
+          cp .env.production.example deploy/
+
+      - name: Upload deployment artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-package
+          path: deploy/
+          retention-days: 1
+
+  # ==================== 部署到服务器 (示例) ====================
+  deploy-server:
+    name: Deploy to Server
+    runs-on: ubuntu-latest
+    needs: prepare-deploy
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    environment:
+      name: production
+      url: ${{ secrets.DEPLOY_URL || 'https://example.com' }}
+    steps:
+      - name: Download deployment artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: deployment-package
+          path: deploy/
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: ${{ secrets.SERVER_PORT || 22 }}
+          script: |
+            cd ${{ secrets.SERVER_PATH }}
+            
+            # 备份当前版本
+            if [ -d "backend" ]; then
+              tar -czf backup/$(date +%Y%m%d_%H%M%S).tar.gz backend/dist frontend/dist 2>/dev/null || true
+            fi
+            
+            # 停止 PM2
+            pm2 stop knowledge-base-backend || true
+            pm2 stop knowledge-base-frontend || true
+            
+            # 复制新版本
+            rm -rf backend frontend
+            cp -r deploy/backend dist/ backend/ node_modules/ frontend/ .env.production || true
+            
+            # 安装依赖
+            cd backend
+            npm ci --production
+            cd ..
+            
+            # 重启 PM2
+            pm2 start ecosystem.config.js --env production || pm2 restart all || true
+            
+            # 清理旧备份
+            find backup/ -name "*.tar.gz" -mtime +7 -delete || true
+
+  # ==================== 通知 ====================
+  notify:
+    name: Deployment Notification
+    runs-on: ubuntu-latest
+    needs: [deploy-server]
+    if: always()
+    steps:
+      - name: Send Discord notification
+        if: vars.DISCORD_WEBHOOK != ''
+        uses: appleboy/discord-action@v0.1.0
+        with:
+          webhook_id: ${{ vars.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ vars.DISCORD_WEBHOOK_TOKEN }}
+          status: ${{ needs.deploy-server.result == 'success' && 'success' || 'failure' }}
+          message: |
+            {{ #success }}
+            Deployment to Production Successful! 🚀
+            Commit: `${{ github.sha }}`
+            Author: ${{ github.actor }}
+            {{ /success }}
+            {{ #failure }}
+            Deployment to Production Failed! ❌
+            Commit: `${{ github.sha }}`
+            {{ /failure }}

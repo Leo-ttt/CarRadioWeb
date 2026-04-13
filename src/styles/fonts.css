@@ -1,0 +1,68 @@
+/**
+ * Logo 字体定义
+ * 从 Google Fonts 加载 18 种特色字体
+ */
+
+/* 现代几何风格 */
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+/* 手写/书法风格 */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/* 速度/运动风格 */
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* 衬线/经典风格 */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+/* 粗体/冲击力 */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+/* 独特/装饰风格 */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Logo 字体类 */
+.logo-font-akronim { font-family: 'Akronim', cursive; }
+.logo-font-cinzel-decorative { font-family: 'Cinzel Decorative', cursive; }
+.logo-font-righteous { font-family: 'Righteous', cursive; }
+.logo-font-caprasimo { font-family: 'Caprasimo', cursive; }
+
+.logo-font-allura { font-family: 'Allura', cursive; }
+.logo-font-carattere { font-family: 'Carattere', cursive; }
+.logo-font-lobster { font-family: 'Lobster', cursive; }
+.logo-font-yellowtail { font-family: 'Yellowtail', cursive; }
+
+.logo-font-faster-one { font-family: 'Faster One', system-ui; }
+.logo-font-turret-road { font-family: 'Turret Road', sans-serif; }
+.logo-font-audiowide { font-family: 'Audiowide', sans-serif; }
+
+.logo-font-special-elite { font-family: 'Special Elite', serif; }
+.logo-font-playfair-display { font-family: 'Playfair Display', serif; }
+.logo-font-cormorant-garamond { font-family: 'Cormorant Garamond', serif; }
+
+.logo-font-saira-stencil { font-family: 'Saira Stencil One', cursive; }
+.logo-font-oswald { font-family: 'Oswald', sans-serif; }
+
+.logo-font-fredoka-one { font-family: 'Fredoka One', cursive; }
+.logo-font-bebas-neue { font-family: 'Bebas Neue', cursive; }
+
+/* Logo gradient text fix */
+.logo-gradient-text {
+  display: inline-block !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}

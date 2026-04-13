@@ -1,0 +1,482 @@
+/**
+ * 现代视觉增强效果 - 基于UI/UX Pro Max设计原则
+ * 用于提升网站现代感和专业度
+ */
+
+/* ========================================
+ * 玻璃态效果增强 - Glassmorphism
+ * ======================================== */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px 0 rgba(31, 38, 135, 0.37),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+.glass-effect-strong {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 12px 40px 0 rgba(31, 38, 135, 0.5),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+}
+
+.dark .glass-effect {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark .glass-effect-strong {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 
+    0 12px 40px 0 rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+}
+
+/* ========================================
+ * 新拟态效果 - Neomorphism
+ * ======================================== */
+.neomorphism {
+  background: #f0f0f0;
+  box-shadow: 
+    8px 8px 16px #d1d1d1,
+    -8px -8px 16px #ffffff;
+  border: none;
+}
+
+.neomorphism:hover {
+  box-shadow: 
+    12px 12px 24px #d1d1d1,
+    -12px -12px 24px #ffffff;
+}
+
+.neomorphism-inset {
+  background: #f0f0f0;
+  box-shadow: 
+    inset 8px 8px 16px #d1d1d1,
+    inset -8px -8px 16px #ffffff;
+}
+
+.dark .neomorphism {
+  background: #2d3748;
+  box-shadow: 
+    8px 8px 16px #1a202c,
+    -8px -8px 16px #404a5c;
+}
+
+.dark .neomorphism:hover {
+  box-shadow: 
+    12px 12px 24px #1a202c,
+    -12px -12px 24px #404a5c;
+}
+
+.dark .neomorphism-inset {
+  background: #2d3748;
+  box-shadow: 
+    inset 8px 8px 16px #1a202c,
+    inset -8px -8px 16px #404a5c;
+}
+
+/* ========================================
+ * 渐变文字效果 - Gradient Text
+ * ======================================== */
+.text-gradient-modern {
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(135deg, #3B82F6 0%, #1E293B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.text-gradient-secondary {
+  background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.text-gradient-rainbow {
+  background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7, #dda0dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  background-size: 300% 300%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ========================================
+ * 现代卡片阴影效果 - Modern Card Shadows
+ * ======================================== */
+.modern-card-shadow {
+  box-shadow: 
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modern-card-shadow:hover {
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.modern-card-shadow-colored {
+  box-shadow: 
+    0 4px 14px 0 rgba(59, 130, 246, 0.15),
+    0 2px 4px -1px rgba(59, 130, 246, 0.1);
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modern-card-shadow-colored:hover {
+  box-shadow: 
+    0 20px 25px -5px rgba(59, 130, 246, 0.25),
+    0 8px 10px -6px rgba(59, 130, 246, 0.2);
+}
+
+/* ========================================
+ * 发光按钮效果 - Glow Effects
+ * ======================================== */
+.btn-glow {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+  animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.btn-glow-primary {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  animation: pulse-glow-primary 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.btn-glow-secondary {
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+  animation: pulse-glow-secondary 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+  }
+}
+
+@keyframes pulse-glow-primary {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(59, 130, 246, 0.6);
+  }
+}
+
+@keyframes pulse-glow-secondary {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(14, 165, 233, 0.6);
+  }
+}
+
+/* ========================================
+ * 微妙动画效果 - Subtle Animations
+ * ======================================== */
+.animate-fade-in-smooth {
+  animation: fadeInSmooth 0.8s ease-out;
+}
+
+.animate-slide-up-smooth {
+  animation: slideUpSmooth 0.6s ease-out;
+}
+
+.animate-scale-in-smooth {
+  animation: scaleInSmooth 0.5s ease-out;
+}
+
+.animate-bounce-gentle {
+  animation: bounceGentle 2s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+
+@keyframes fadeInSmooth {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpSmooth {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleInSmooth {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceGentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ========================================
+ * 悬浮提升效果 - Hover Lift Effects
+ * ======================================== */
+.hover-lift-sm {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift-sm:hover {
+  transform: translateY(-2px);
+}
+
+.hover-lift-md {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift-md:hover {
+  transform: translateY(-4px);
+}
+
+.hover-lift-lg {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift-lg:hover {
+  transform: translateY(-8px);
+}
+
+.hover-scale-sm {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-scale-sm:hover {
+  transform: scale(1.02);
+}
+
+.hover-scale-md {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-scale-md:hover {
+  transform: scale(1.05);
+}
+
+/* ========================================
+ * 现代分割线 - Modern Dividers
+ * ======================================== */
+.divider-gradient {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+  border: none;
+}
+
+.divider-glow {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.8), transparent);
+  border: none;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+/* ========================================
+ * 加载骨架屏现代化 - Modern Skeleton Loading
+ * ======================================== */
+.skeleton-modern {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+.dark .skeleton-modern {
+  background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+  background-size: 200% 100%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* ========================================
+ * 交互式边框效果 - Interactive Borders
+ * ======================================== */
+.border-animated {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+              linear-gradient(45deg, #3B82F6, #F59E0B, #10b981, #3B82F6) border-box;
+  background-size: 300% 300%;
+  animation: border-animation 3s ease infinite;
+}
+
+@keyframes border-animation {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.border-glow-hover {
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.border-glow-hover:hover {
+  border-color: rgba(59, 130, 246, 0.8);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* ========================================
+ * 现代按钮动效 - Modern Button Effects
+ * ======================================== */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn-ripple:active::before {
+  width: 300px;
+  height: 300px;
+}
+
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s;
+}
+
+.btn-shimmer:hover::after {
+  left: 100%;
+}
+
+/* ========================================
+ * 渐进式背景效果 - Progressive Backgrounds
+ * ======================================== */
+.bg-mesh-gradient {
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(circle, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* ========================================
+ * 专业卡片设计 - Professional Card Design
+ * ======================================== */
+.card-professional {
+  background: var(--bg-card);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  border-radius: 16px;
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-professional::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+}
+
+.card-professional:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.card-professional:hover::before {
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.8), transparent);
+}

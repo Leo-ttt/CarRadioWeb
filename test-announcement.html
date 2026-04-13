@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Announcement API</title>
+</head>
+<body>
+  <h1>Announcement API Test</h1>
+  <button onclick="testAPI()">Test API</button>
+  <pre id="result"></pre>
+  
+  <script>
+    async function testAPI() {
+      const result = document.getElementById('result');
+      
+      try {
+        // Test API call
+        const response = await fetch('http://localhost:3000/api/announcement?language=en');
+        const data = await response.json();
+        
+        result.textContent = 'API Response:\n' + JSON.stringify(data, null, 2);
+        
+        console.log('Success:', data.success);
+        console.log('Enabled:', data.announcement?.enabled);
+        console.log('Content:', data.announcement?.content);
+        console.log('Language:', data.announcement?.language);
+        
+        // Test localStorage
+        const closedKey = 'announcement_closed_en';
+        const closedData = localStorage.getItem(closedKey);
+        console.log('localStorage[' + closedKey + ']:', closedData);
+        
+        // Test condition
+        const shouldShow = data.announcement && data.announcement.enabled && !closedData;
+        console.log('Should show announcement:', shouldShow);
+        
+      } catch (error) {
+        result.textContent = 'Error: ' + error.message;
+        console.error('Error:', error);
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.flarum
+config.env
+
+# Stray / accidental files
+execute*
+
+# AI configuration (contains API keys)
+ai-config.json
+
+# Documentation and scripts (development only)
+# 保留重要文档
+*.md
+!README.md
+!CONTRIBUTING.md
+!QUICK_START.md
+!OPTIMIZATION_SUMMARY.md
+!TODO.md
+!FINAL_REPORT.md
+*.bat
+backend/*.js
+backend/check-*.js
+backend/debug-*.js
+backend/fix-*.js
+backend/migrate*.js
+backend/start-*.js
+
+# IDE files
+.vscode/
+.idea/
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Accidentally created files from commands
+*status*
+
+# Package lock files (optional, depending on your preference)
+# package-lock.json
+# yarn.lock
+
+# Backend specific
+backend/dist/
+backend/config.env
+
+# Frontend specific
+.cache/
+.parcel-cache/
