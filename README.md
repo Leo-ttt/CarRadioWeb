@@ -26,7 +26,7 @@ Built for aftermarket products: car head units, CarPlay/Android Auto systems, et
 | State | TanStack Query + React Context |
 | Routing | React Router DOM 7 |
 | Animation | Framer Motion |
-| i18n | react-i18next (en / zh / ru) |
+| i18n | react-i18next (en / zh) |
 | Backend | Node.js + Express 4 + TypeScript |
 | Database | MongoDB + Mongoose 8 |
 | Cache | Redis (ioredis) |
@@ -39,7 +39,7 @@ Built for aftermarket products: car head units, CarPlay/Android Auto systems, et
 
 #### Public Frontend
 
-- Multi-language support (English / Chinese / Russian)
+- Multi-language support (English / Chinese)
 - Knowledge base with document search
 - Product catalog with vehicle compatibility
 - Video tutorials (YouTube / Bilibili embed)
@@ -273,7 +273,7 @@ npm run test:run      # Vitest single run
 | `robots.txt` | Blocks `/admin`, `/api` |
 | `sitemap.xml` | Dynamic, includes all published documents + static pages |
 | `SEOHead` | Per-page title / description / keywords |
-| `hreflang` | Multi-language alternate links (en / ru + x-default) |
+| `hreflang` | Multi-language alternate links (en + x-default) |
 | Open Graph | OG tags + default OG image (1200x630) |
 | JSON-LD | Organization / Product / FAQ / Breadcrumb / Article schemas |
 
@@ -353,7 +353,7 @@ See the [`LICENSE`](LICENSE) file in the repository root. If a separate license 
 
 #### 前台（公开页面）
 
-- 多语言支持（英文 / 中文 / 俄文）
+- 多语言支持（英文 / 中文）
 - 知识库文档搜索与浏览
 - 产品目录 + 车辆兼容性查询
 - 视频教程（YouTube / Bilibili 嵌入）
@@ -553,7 +553,7 @@ npm run test:run      # Vitest 单次运行
 | `robots.txt` | 禁止爬取 `/admin`、`/api` |
 | `sitemap.xml` | 后端动态生成，包含所有已发布文档 + 静态页面 |
 | `SEOHead` 组件 | 每个页面独立的 title / description / keywords |
-| `hreflang` | 多语言 alternate 链接（en / ru + x-default） |
+| `hreflang` | 多语言 alternate 链接（en + x-default） |
 | Open Graph | OG 标签 + 默认 OG 图片（1200x630） |
 | JSON-LD | Organization / Product / FAQ / Breadcrumb / Article 结构化数据 |
 
