@@ -1,5 +1,7 @@
 # Automotive Electronics Official Website + Knowledge Base
 
+![CarRadioWeb Preview](public/images/微信图片_20260430100048_72_19.png)
+
 **Repository:** [github.com/Leo-ttt/Official-Website](https://github.com/Leo-ttt/Official-Website)
 
 [English](#english) | [中文](#中文)
